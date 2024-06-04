@@ -9,7 +9,7 @@ const Projects = () => {
       discription:
         "Mission :-   ISKCON Youth Centers aim to empower young individuals by providing a supportive environment where they can explore their spirituality, develop life skills, and engage in meaningful service. The centers strive to help youth lead purposeful and fulfilling lives grounded in the principles of Krishna consciousness",
       img: {
-        src: "Br1 - Copy.jpg",
+        src: "Br14.jpg",
         alt: "iskcon image",
       },
     },
@@ -19,7 +19,7 @@ const Projects = () => {
       discription:
         "Mission :-   ISKCON Youth Centers aim to empower young individuals by providing a supportive environment where they can explore their spirituality, develop life skills, and engage in meaningful service. The centers strive to help youth lead purposeful and fulfilling lives grounded in the principles of Krishna consciousness ",
       img: {
-        src: "br12.jpg",
+        src: "Br12.jpg",
         alt: "iskcon image",
       },
     },
@@ -29,7 +29,7 @@ const Projects = () => {
       discription:
         "Mission :-   ISKCON Youth Centers aim to empower young individuals by providing a supportive environment where they can explore their spirituality, develop life skills, and engage in meaningful service. The centers strive to help youth lead purposeful and fulfilling lives grounded in the principles of Krishna consciousness",
       img: {
-        src: "br11.jpg",
+        src: "Br11.jpg",
         alt: "iskcon image",
       }
     }

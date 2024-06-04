@@ -34,15 +34,15 @@ const Display = () => {
     },
     {
       name: "test",
-      src: "/Br4.jpg",
+      src: "Br4.jpg",
     },
     {
       name: "test",
-      src: "/br10.jpg",
+      src: "Br10.jpg",
     },
     {
       name: "test2",
-      src: "/br11.jpg",
+      src: "Br11.jpg",
     },
   ];
   return (

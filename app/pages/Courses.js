@@ -5,15 +5,15 @@ const Courses = () => {
   const data=[
    
     {
-      img:"br13.jpg",
+      img:"Br13.jpg",
       name:"Yatra",
       desc:"",
     }, {
-      img:"br6.jpg",
+      img:"Br6.jpg",
       name:"Prasad",
       desc:"",
     }, {
-      img:"br8.jpg",
+      img:"Br8.jpg",
       name:"Counseling",
       desc:"",
     },

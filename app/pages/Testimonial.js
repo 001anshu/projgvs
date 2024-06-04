@@ -15,21 +15,21 @@ const Testimonial = () => {
       description:
         "Vedas: The Vedic texts, consisting of the Rigveda, Samaveda, Yajurveda, and Atharvaveda, were central to the spiritual and ritualistic life. These texts included hymns, prayers, rituals, and philosophical discourse",
       name: "test",
-      src: "/br8.jpg",
+      src: "Br8.jpg",
       source:"test"
     },
     {
       description:
         "Women had a relatively respected position in early Vedic society, participating in religious rituals and having access to education. However, their status declined in later Vedic periods",
       name: "test",
-      src: "br19.png",
+      src: "Br19.png",
       source:"test"
     },
     {
       description:
         "The early Vedic period was characterized by semi-nomadic tribes led by chiefs (Rajan). Over time, these tribes settled into more stable agricultural communities, forming small kingdoms and republics",
       name: "test2",
-      src: "br13.jpg",
+      src: "Br13.jpg",
       source:"test"
     },
   ];
