@@ -8,7 +8,7 @@ const Testimonial = () => {
       description:
         "edic society, rooted in ancient India, is often referred to as one of the earliest and most formative periods in Indian civilization, roughly spanning from 1500 BCE to 500 BCE. It is named after the Vedas, which are the oldest sacred texts of Hinduism, composed during this era. This society's structure, beliefs, and daily life were profoundly influenced by these texts",
       name: "test2",
-      src: "br6.jpg",
+      src: "Br6.jpg",
       source:"test"
     },
     {
