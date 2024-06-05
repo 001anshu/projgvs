@@ -15,8 +15,9 @@ const Navbar = () => {
     { name: "About", id: "about" },//done
     { name: "Courses", id: "courses" },//done
     { name: "Projects", id: "projects" },
-    { name: "Testimonial", id: "testimonial" },
+    { name: "Support", id: "donate" },
     { name: "Contact", id: "contact" },
+
   ];
 
   const scrollToSection = (id) => {

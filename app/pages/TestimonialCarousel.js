@@ -1,10 +1,11 @@
+"use client"
 import React, { useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 
 import { logo, monk_img, students, temple_img } from "@/public/constant";
 
 export default function TestimonialCarousel({ images }) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true});
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -15,23 +16,20 @@ export default function TestimonialCarousel({ images }) {
       }
     };
 
-    // const autoplayInterval = setInterval(autoplay, 5000); // Change slide every 3 seconds
+    const autoplayInterval = setInterval(autoplay, 5000); // Change slide every 3 seconds
 
-    return () => clearInterval(); // Cleanup interval on component unmount
+    return () => clearInterval(autoplayInterval); // Cleanup interval on component unmount
   }, [emblaApi]);
 
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container h-full w-full ">
         {images?.map((i) => (
-
-          <div className="embla__slide flex flex-col justify-center" key={i.name}>
-            
-            
-            <img className="max-h-3/4" src={i.src} alt=".." />
-            
-            <div className="bg-yellow-50 text-xl p-4 m-2" >{i.description}</div>
-            <div className="bg-indigo-50 text-xl p-4 m-2">Source - {i.source}</div>
+          <div
+            className="embla__slide flex max-h-[400px] flex-col justify-center"
+            key={i.src}
+          >
+            <img className="max-h-[400px]" src={i.src} alt=".." />
           </div>
         ))}
       </div>

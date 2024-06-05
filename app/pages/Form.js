@@ -38,9 +38,9 @@ const Form = () => {
 
   return (
 
-    <div id='contact' >
+    <div id='contact' className='max-w-7xl mx-auto shadow-lg shadow-indigo-400 my-8 rounded-lg' >
       <div className="font-mono  text-slate-900 p-5 text-3xl  flex justify-center items-center">Contact Us</div>
-      <div className="bg-gradient-to-bl from-indigo-400 flex items-center justify-center">
+      <div className=" flex items-center justify-center">
       
       <form
         className="form  flex justify-center items-center md:ml-52 ml-10 opacity-80 "
@@ -48,7 +48,7 @@ const Form = () => {
       >
         <div className='form    shadow-xl grid-rows-4  opacity-80' >
         <input
-          className="border border-solid shadow-xl p-5 m-3 w-1/3  rounded-lg items-center  "
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3  rounded-lg items-center  "
           type="text"
           name="firstName"
           placeholder="Your Name"
@@ -56,14 +56,14 @@ const Form = () => {
         />
 
         <input
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
+          className="border border-solid shadow-xl shadow-indigo-100 p-5 m-3 w-1/3 rounded-lg items-center "
           type="text"
           name="email"
           placeholder="Email"
           {...register("Email", { required: true, pattern: /^\S+@\S+$/i })}
         />
         <input
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3 rounded-lg items-center "
           type="tel"
           name="mobileNumber"
           placeholder="Mobile number"
@@ -73,36 +73,39 @@ const Form = () => {
             maxLength: 12,
           })}
         />
-        <select
-          {...register("Year")}
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
-        >
-          <option value="1st Year">1st Year</option>
-          <option value="2nd Year">2nd Year</option>
-          <option value="3rd Year">3rd Year</option>
-          <option value="4th Year">4th Year</option>
-        </select>
         <input
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
+          {...register("Year")}
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3 rounded-lg items-center "
+          name="Age"
+          placeholder="Enter your Age"
+          {...register("Year", {
+            required: true,
+            minLength: 1,
+            maxLength: 6,
+          })}
+          
+        />
+        <input
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3 rounded-lg items-center "
           type="text"
-          placeholder="Branch"
+          placeholder="State"
           {...register("Branch", { required: true })}
         />
         <input
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3 rounded-lg items-center "
           type="text"
-          placeholder="Hostel"
+          placeholder="City"
           {...register("Hostel", { required: true })}
         />
         <input
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3 rounded-lg items-center "
           type="text"
           placeholder="Connected To"
           {...register("ConnectedTo", { required: true })}
         />
         <input
           type="text"
-          className="border border-solid shadow-xl p-5 m-3 w-1/3 rounded-lg items-center "
+          className="border border-solid shadow-xl shadow-indigo-100  p-5 m-3 w-1/3 rounded-lg items-center "
           placeholder="Message"
           {...register("Message", {})}
         />

@@ -1,14 +1,13 @@
 import React from 'react'
+import TestimonialCarousel from './TestimonialCarousel'
 
 const CourseCard = ({data}) => {
   return (
     <div >
       
       <div className='border bg-indigo-50 rounded-lg m-4 '>
-        <img className='md:w-[500px] md:h-[400px]'
-        src={data.img}
-        alt='test'
-        />
+        <div className='md:w-[500px] md:h-[400px]'><TestimonialCarousel images={data.img}/></div>
+       
         <h2 className='flex justify-center text-2xl'>{data.name}</h2>
         <p className='font-mono'>Description</p>
         <div className="flex justify-center items-center">

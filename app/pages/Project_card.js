@@ -6,19 +6,21 @@ const Project_card = ({ props }) => {
     <div>
       {props.switch == 1 ? (
         <>
-          <div className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4">
-          <div className="flex justify-center items-center h-1/2 w-1/2 m-8 relative overflow-hidden">
-              <img
-                className="md:w-1/2  object-contain"
-                src={props.img.src}
-                alt="prabhupada"
-              />
-            </div>
-            <div className="mb-4 md:w-1/2 ">
-              <h1 className="text-5xl m-6 text-orange-400 lg:m-8">
+          <div
+            className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4 relative bg-cover bg-center"
+            style={{ backgroundImage: `url(${props.img.src})` }}
+          >
+            <div
+              className="md:w-1/2 text-white p-4 rounded-lg"
+              style={{
+                backdropFilter: "blur(1px)",
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+              }}
+            >
+              <h1 className="text-4xl m-6 text-orange-400 lg:m-8">
                 {props.header}
               </h1>
-              <p className="text-2xl m-4 lg:m-10">{props.discription}</p>
+              <p className="text-lg m-4 lg:m-10">{props.discription}</p>
               <button className="bg-indigo-500 p-4 m-4 text-white">
                 KNOW MORE →{" "}
               </button>
@@ -27,22 +29,24 @@ const Project_card = ({ props }) => {
         </>
       ) : (
         <>
-          <div className="md:flex md:justify-center md:items-center p-4 bg-indigo-100 m-4">
-            <div className="mb-4 md:w-1/2">
-              <h1 className="text-5xl m-6 text-orange-400 lg:m-8">
+           <div
+            className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4 relative bg-cover bg-center"
+            style={{ backgroundImage: `url(${props.img.src})` }}
+          >
+            <div
+              className="md:w-1/2 text-white p-4 rounded-lg"
+              style={{
+                backdropFilter: "blur(1px)",
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+              }}
+            >
+              <h1 className="text-4xl m-6 text-orange-400 lg:m-8">
                 {props.header}
               </h1>
-              <p className="text-2xl m-4 lg:m-10">{props.discription}</p>
+              <p className="text-lg m-4 lg:m-10">{props.discription}</p>
               <button className="bg-indigo-500 p-4 m-4 text-white">
                 KNOW MORE →{" "}
               </button>
-            </div>
-            <div className="flex justify-center items-center h-1/2 w-1/2 m-8 relative overflow-hidden">
-              <img
-                className="md:w-1/2 w-full object-contain"
-                src={props.img.src}
-                alt="prabhupada"
-              />
             </div>
           </div>
         </>

@@ -10,6 +10,7 @@ import Projects from './pages/Projects'
 import Testimonial from './pages/Testimonial'
 import Form from './pages/Form'
 import Footer from './pages/Footer'
+import Donate from './pages/Donate'
 
 
 const page = () => {
@@ -23,7 +24,7 @@ const page = () => {
       <About/>
       <Courses/>
       <Projects/>
-      {/* <Testimonial/> */}
+      <Donate/>
       <Form/>
       <Footer/>
     </div>
