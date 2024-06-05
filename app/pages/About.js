@@ -34,7 +34,7 @@ const About = () => {
       </div>
       <div className="mb-4 md:w-1/2">
         <p className=" font-bold m-8">Learning With The Vedic School</p>
-        <h1 className="text-5xl m-6 text-orange-400 lg:m-8">
+        <h1 className="text-3xl m-6 text-orange-400 lg:m-8">
         Experience An Amazing Indian Vedic Culture Journey
         </h1>
         <p className="text-2xl m-4 lg:m-10">

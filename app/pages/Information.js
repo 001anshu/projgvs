@@ -9,7 +9,7 @@ const Information=({info})=>{
       
        {
         info.map((i,ind)=>(
-          <ul className="text-xl bg-indigo-100 m-4 p-2" key={ind}>
+          <ul className="text-xl bg-indigo-100 m-2 p-2" key={ind}>
             {i.text}
           </ul>
         ))

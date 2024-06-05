@@ -7,7 +7,7 @@ const Home = () => {
       
       <div className="mb-4 md:w-1/2">
         <p className=" font-bold m-8">Learning With The Vedic School</p>
-        <h1 className="text-7xl m-6 lg:m-8">A world-class education in Indian Vedic culture</h1>
+        <h1 className="text-4xl m-6 lg:m-8">A world-class education in Indian Vedic culture</h1>
         <p className="text-2xl m-4 lg:m-10">Gain a superior understanding of Indian Vedic culture through an education that exceeds global standards. Unlock the secrets to this ancient knowledge and use it for personal achievement!</p>
         <button className="bg-indigo-500 p-4 m-4 text-white">ENROLL NOW →  </button>
       </div>
