@@ -29,7 +29,7 @@ export default function TestimonialCarousel({ images }) {
             className="embla__slide flex max-h-[450px] flex-col justify-center"
             key={i.src}
           >
-            <img className="flex justify-center items-center max-h-[360px] max-w-[320px]" src={i.src} alt=".." />
+            <img className="flex justify-center items-center max-h-[300px] max-w-[320px]" src={i.src} alt=".." />
           </div>
         ))}
       </div>
