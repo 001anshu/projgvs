@@ -9,7 +9,7 @@ const Projects = () => {
       discription:
         "  Vision: Envisioning a modern academic institution rooted in spiritual values, the school aims to harmonize traditional wisdom with contemporary knowledge. The curriculum is designed to foster critical thinking, innovation, and ethical reasoning, preparing students to excel in a globalized world while remaining grounded in their cultural heritage. This non-residential school will provide a balanced education that nurtures the mind, body, and spirit, equipping young minds to lead with compassion, integrity, and a sense of responsibility towards society and the environment. The vision is to create leaders who are not only academically proficient but also spiritually attuned, capable of guiding society towards a more enlightened and sustainable future.",
       img: {
-        src: "Br14.jpg",
+        src: "Br13.jpg",
         alt: "iskcon image",
       },
     },

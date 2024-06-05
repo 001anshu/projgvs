@@ -31,16 +31,16 @@ const Navbar = () => {
 
   return (
     <div className="  ">
-      <div className="bg-indigo-300 flex items-center drop-shadow-2xl shadow-yellow-400-700  justify-between   ">
+      <div className="bg-indigo-300 flex items-center drop-shadow-2xl shadow-indigo-400  justify-between   ">
         <img
           src="/header_logo.jpeg"
           alt="Description of the image"
-          className="w-10 m-2  lg:w-20 md:w-16"
+          className="w-10 m-2  lg:w-18 md:w-16"
         />
 
-        <div className="text-2xl lg:text-3xl text-slate-100 font-semibold font-mono ">Guaranga Vedic Society</div>
+        <div className="text-xl lg:text-2xl text-slate-100 font-semibold font-mono ">Guaranga Vedic Society</div>
         <div>
-        <div className="hidden   m-2   lg:flex  lg:justify-center ">
+        <div className="hidden m-2 lg:flex  lg:justify-center ">
           {items1.map((item, i) => (
              
             <Navbarbtn
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         </div>
         <div className="">
-          <button onClick={toggleMenu} className="focus:outline-none m-4 lg:hidden ">
+          <button onClick={toggleMenu} className="focus:outline-none m-2 lg:hidden ">
             <svg
               className="w-6 h-6"
               fill="none"

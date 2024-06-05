@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div
       id="about"
-      className="md:flex p-4 mx-auto my-6 max-w-[1500px] justify-center items-center shadow-2xl shadow-indigo-500 rounded-xl"
+      className="md:flex p-4 mx-auto my-6 max-w-[1200px] justify-center items-center shadow-2xl shadow-indigo-500 rounded-xl"
     >
-      <div className="hidden m-4 p-32 md:flex h-1/2 relative overflow-hidden w-1/2">
-        <img className="md:w-full rounded-xl" src="/prabhupada.png" alt="prabhupada" />
+      <div className=" m-4 md:p-32 md:flex h-1/2 relative overflow-hidden w-1/2">
+        <img className="md:w-full  rounded-xl" src="/prabhupada.png" alt="prabhupada" />
       </div>
       <div className="mb-4 md:w-1/2">
         <p className="font-bold m-4">
@@ -19,7 +19,7 @@ const About = () => {
         <h1 className="text-3xl m-4 text-orange-400 lg:m-6">
           Experience An Amazing Indian Vedic Culture Journey
         </h1>
-        <p className="text-lg m-4 lg:m-6">
+        <p className="text-md m-4 lg:m-6">
           The Society for Nature, Humanity, and Spirituality also emphasizes the
           importance of community engagement and collective well-being. Through
           our various outreach programs, we offer free health camps, distribute

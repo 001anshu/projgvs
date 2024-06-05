@@ -19,7 +19,7 @@ const Courses = () => {
         },
       ],
       name: "Yatra",
-      desc: "",
+      desc: "A devotee should make a point of visiting all the places where the Lord performed His pastimes. In this way, he can make his life successful. — Srila Prabhupada",
     },
     {
       img: [{
@@ -37,7 +37,7 @@ const Courses = () => {
        
       ],
       name: "Prasad",
-      desc: "",
+      desc: "Simply by the liberal distribution of prasadam and by chanting the holy name of the Lord, we can bring about a revolution in the misdirected lives of the people of this materialistic world. — Srila Prabhupada",
     },
     {
       img: [
@@ -51,7 +51,7 @@ const Courses = () => {
         
       ],
       name: "Counseling",
-      desc: "",
+      desc: "Our duty is to guide people to spiritual realization and to relieve them from the anxieties and sufferings of material existence through compassionate and thoughtful counseling. — Srila Prabhupada",
     },
   ];
   //passing props with all the data ke remember to do it
@@ -60,7 +60,7 @@ const Courses = () => {
       <h1 className="text-5xl font-semibold  flex justify-center">
         What we offer
       </h1>
-      <div id="courses" className="lg:flex p-4 md:flex  md:flex-wrap     md:justify-center">
+      <div id="courses" className="lg:flex p-4 md:flex  md:flex-wrap  md:justify-center">
         {data.map((d, i) => (
           <CourseCard key={i} data={d} />
         ))}

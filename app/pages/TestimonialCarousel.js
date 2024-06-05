@@ -26,10 +26,10 @@ export default function TestimonialCarousel({ images }) {
       <div className="embla__container h-full w-full ">
         {images?.map((i) => (
           <div
-            className="embla__slide flex max-h-[400px] flex-col justify-center"
+            className="embla__slide flex max-h-[450px] flex-col justify-center"
             key={i.src}
           >
-            <img className="max-h-[400px]" src={i.src} alt=".." />
+            <img className="flex justify-center items-center max-h-[360px] max-w-[320px]" src={i.src} alt=".." />
           </div>
         ))}
       </div>
