@@ -3,7 +3,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="md:flex p-4  md:mx-32 m-4 rounded-xl shadow-xl shadow-indigo-400 md:m-10 " id="home">
+    <div className="lg:flex p-4 sm:flex sm:flex-col  md:mx-32 m-4 rounded-xl shadow-xl shadow-indigo-400 md:m-10 " id="home">
       
       <div className="mb-4 md:w-full">
         <p className=" font-bold m-8">"People need Krishna consciousness to be happy, and the whole world is in need of this consciousness." — Srila Prabhupada</p>

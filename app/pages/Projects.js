@@ -29,7 +29,7 @@ const Projects = () => {
       switch: 0,
       header: "Gowsala",
       discription:
-        "Mission :-   ISKCON Youth Centers aim to empower young individuals by providing a supportive environment where they can explore their spirituality, develop life skills, and engage in meaningful service. The centers strive to help youth lead purposeful and fulfilling lives grounded in the principles of Krishna consciousness",
+        "Srila Prabhupada, the founder of ISKCON, emphasized the importance of goshala (cow protection) as essential for both spiritual and material well-being. He regarded cows as sacred and integral to Vedic culture, teaching that protecting cows is a key aspect of practicing dharma and non-violence (ahimsa). Prabhupada highlighted that cows contribute significantly to sustainable agriculture through their byproducts, which serve as natural fertilizers and pesticides, and support rural economies. He believed that caring for cows cultivates compassion, ethical behavior, and spiritual advancement, fostering a harmonious and humane society aligned with Vedic principles.",
       img: {
         src: "goshala.jpg",
         alt: "iskcon image",

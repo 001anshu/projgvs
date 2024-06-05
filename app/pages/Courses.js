@@ -56,11 +56,11 @@ const Courses = () => {
   ];
   //passing props with all the data ke remember to do it
   return (
-    <div className=" ">
-      <h1 className="text-5xl font-semibold flex justify-center">
+    <div className="md:mx-40">
+      <h1 className="text-5xl font-semibold  flex justify-center">
         What we offer
       </h1>
-      <div id="courses" className="md:flex p-4   md:justify-center">
+      <div id="courses" className="lg:flex p-4 md:flex  md:flex-wrap     md:justify-center">
         {data.map((d, i) => (
           <CourseCard key={i} data={d} />
         ))}

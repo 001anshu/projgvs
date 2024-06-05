@@ -7,7 +7,7 @@ const Project_card = ({ props }) => {
       {props.switch == 1 ? (
         <>
           <div
-            className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4 relative bg-cover bg-center"
+            className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4 md:mx-44 rounded-lg shadow-lg shadow-indigo-300 relative bg-cover bg-center"
             style={{ backgroundImage: `url(${props.img.src})` }}
           >
             <div
@@ -30,7 +30,7 @@ const Project_card = ({ props }) => {
       ) : (
         <>
            <div
-            className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4 relative bg-cover bg-center"
+            className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4 md:mx-44 my-10 rounded-lg shadow-lg shadow-indigo-300 relative bg-cover bg-center"
             style={{ backgroundImage: `url(${props.img.src})` }}
           >
             <div

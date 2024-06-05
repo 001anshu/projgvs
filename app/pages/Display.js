@@ -34,7 +34,7 @@ const Display = () => {
       <div className="md:w-1/3  mb-4 p-2 w-full h-full overflow-auto max-h-[400px] custom-scrollbar ">
         <Information info={info}/>
       </div>
-      <div className="md:w-1/2 w-full h-full overflow-hidden relative">
+      <div className="md:w-1/2 w-full p-2 mb-4 max-h-[400px] h-full overflow-hidden relative">
         <EmblaCarousel images={images} />
        
       </div>
