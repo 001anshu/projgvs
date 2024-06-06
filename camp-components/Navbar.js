@@ -31,8 +31,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="bg-indigo-300 flex items-center drop-shadow-2xl shadow-indigo-400  justify-between   ">
-      
+      <div className="bg-blue-200 flex items-center  lg:justify-center justify-between  ">
         <div className="hidden m-2  lg:flex lg:items-center  lg:justify-center ">
           {items1.map((item, i) => (
             <Navbarbtn
