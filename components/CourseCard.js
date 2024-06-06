@@ -11,7 +11,7 @@ const CourseCard = ({data}) => {
         <h2 className='flex justify-center text-2xl'>{data.name}</h2>
         <p className='font-mono'>{data.desc}</p>
         <div className="flex justify-center items-center">
-        <button className='bg-indigo-500 w-1/3 m-2 flex justify-center items-center font-mono rounded-md text-xl text-white p-2'>Register</button>
+        <button className='bg-indigo-500 w-1/2 m-2  flex justify-center items-center font-mono rounded-md text-xl text-white p-2'>Register</button>
         </div>
       </div>
     </div>

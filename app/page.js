@@ -8,10 +8,13 @@ import Courses from '../components/Courses';
 import Projects from '../components/Projects';
 import Donate from '../components/Donate';
 import Form from '../components/Form';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 const IndexPage = () => {
   return (
     <div>
+      <Navbar/>
       <Display />
       <Home />
       <Features />
@@ -20,6 +23,7 @@ const IndexPage = () => {
       <Projects />
       <Donate />
       <Form />
+      <Footer/>
     </div>
   );
 };
