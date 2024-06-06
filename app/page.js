@@ -1,34 +1,27 @@
-import React from 'react'
-import Home from './pages/Home'
-import Navbar from './pages/Navbar'
-import Features from './pages/Features'
-import About from './pages/About'
-import Courses from './pages/Courses'
-import EmblaCarousel from './pages/EmblaCarousel'
-import Display from './pages/Display'
-import Projects from './pages/Projects'
-import Testimonial from './pages/Testimonial'
-import Form from './pages/Form'
-import Footer from './pages/Footer'
-import Donate from './pages/Donate'
+// app/page.js
+import React from 'react';
+import Display from '../components/Display';
+import Home from '../components/Home';
+import Features from '../components/Features';
+import About from '../components/About';
+import Courses from '../components/Courses';
+import Projects from '../components/Projects';
+import Donate from '../components/Donate';
+import Form from '../components/Form';
 
-
-const page = () => {
+const IndexPage = () => {
   return (
     <div>
-      
-      <Navbar/>
-      <Display/>
-      <Home/>
-      <Features/>
-      <About/>
-      <Courses/>
-      <Projects/>
-      <Donate/>
-      <Form/>
-      <Footer/>
+      <Display />
+      <Home />
+      <Features />
+      <About />
+      <Courses />
+      <Projects />
+      <Donate />
+      <Form />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default IndexPage;

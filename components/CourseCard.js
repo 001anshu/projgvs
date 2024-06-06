@@ -6,7 +6,7 @@ const CourseCard = ({data}) => {
     <div >
       
       <div className='border w-[300px]  bg-indigo-50 rounded-lg p-2 m-4 '>
-        <div className='md:w-[300px] md:h-[400px]'><TestimonialCarousel images={data.img}/></div>
+        <div className='md:w-[280px] md:h-[400px]'><TestimonialCarousel images={data.img}/></div>
        
         <h2 className='flex justify-center text-2xl'>{data.name}</h2>
         <p className='font-mono'>{data.desc}</p>

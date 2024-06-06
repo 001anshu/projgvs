@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 const Information=({info})=>{
   return(
     <div className="h-full w-full bg-gradient-to-r from-indigo-200">
@@ -9,10 +10,13 @@ const Information=({info})=>{
       
        {
         info.map((i,ind)=>(
+          <Link href={i.link}>
           <ul className="text-xl font-semibold text-red-600 m-2 p-2" key={ind}>
             {"->"} {i.text}
-            
+            {console.log(i.link)}
           </ul>
+          </Link>
+        
         ))
        }
         
