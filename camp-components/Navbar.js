@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const items1 = [
     { name: "About", id: "about" }, //done
-    { name: "Dates", id: "dates" }, //done
+    { name: "Dates", id: "date" }, //done
     { name: "Experience", id: "experience" },
     { name: "Memories", id: "memories" },
     { name: "Accomodation", id: "accomodation" }, //done
@@ -31,8 +31,11 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="bg-blue-200 flex items-center  lg:justify-center justify-between  ">
-        <div className="hidden m-2  lg:flex lg:items-center  lg:justify-center ">
+      <div className="flex items-center  lg:justify-center justify-between" style={{backgroundColor:'rgb(20,163,244)'}}>
+        <div className="hidden m-2 rounded-lg lg:flex lg:items-center  lg:justify-center " style={{
+          backgroundColor:'rgb(212,228,248)'
+          ,
+        }}>
           {items1.map((item, i) => (
             <Navbarbtn
               name={item.name}
