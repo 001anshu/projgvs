@@ -18,6 +18,7 @@ const Courses = () => {
           src: "yatra04.jpg",
         },
       ],
+      link:"/yatra",
       name: "Yatra",
       desc: "A devotee should make a point of visiting all the places where the Lord performed His pastimes. In this way, he can make his life successful. — Srila Prabhupada",
     },
@@ -36,6 +37,7 @@ const Courses = () => {
         },
        
       ],
+      link:"/",
       name: "Prasad",
       desc: "Simply by the liberal distribution of prasadam and by chanting the holy name of the Lord, we can bring about a revolution in the misdirected lives of the people of this materialistic world. — Srila Prabhupada",
     },
@@ -50,6 +52,7 @@ const Courses = () => {
       
         
       ],
+      link:'/',
       name: "Counseling",
       desc: "Our duty is to guide people to spiritual realization and to relieve them from the anxieties and sufferings of material existence through compassionate and thoughtful counseling. — Srila Prabhupada",
     },

@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       switch: 1,
-      header: "Gurukuls",
+      header: "Gurukul",
       discription:
         "Vision and Pledge: At the heart of our Gurukul lies the vision to nurture the next generation with the wisdom of Vedic teachings, fostering a society rooted in spiritual growth and moral values. We envision a world where children are empowered with focus, tolerance, patience, and character; where they are equipped to discern the good from the bad, and contribute positively to society. Our mission is to instill in our students a deep-seated contentment and satisfaction with life, as bestowed by divine grace, while"+
 

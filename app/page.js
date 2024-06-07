@@ -21,7 +21,7 @@ const IndexPage = () => {
       <About />
       <Courses />
       <Projects />
-      <Donate />
+      {/* <Donate /> */}
       <Form />
       <Footer/>
     </div>

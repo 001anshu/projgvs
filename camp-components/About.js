@@ -18,7 +18,7 @@ const About = () => {
       <div className="md:text-xl text-md m-4 lg:m-6 text-center" style={{
         
       }}>
-      <p className='bg-red-500' >
+      <p className="" >
       Over the years, devotees have visited Vrindavan, Govardhan, Ayodhya, Jaipur, Sri Rangam, Tirupati, Mayapur, Dwarka, Udupi, Rameshwaram and many other places.The number of devotees participating in these yatras have increased manifold i.e from an humble twenty in 1986 to a magnificent 10000 in 2023.</p>
 
 <p>Kartik Yatras give devotees an opportunity to perform the devotional activity of shravanam (hearing) of hari-katha. Shravanam done in the association of devotees, in a holy dhama, is said to award one immense devotional merits.</p>

@@ -13,9 +13,9 @@ const Navbar = () => {
   const items1 = [
     { name: "Home", id: "home" },//done
     { name: "About", id: "about" },//done
-    { name: "Courses", id: "courses" },//done
+
     { name: "Projects", id: "projects" },
-    { name: "Support", id: "donate" },
+    
     { name: "Contact", id: "contact" },
 
   ];

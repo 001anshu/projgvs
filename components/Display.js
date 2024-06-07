@@ -5,15 +5,13 @@ import Information from "./Information";
 
 const Display = () => {
   const info = [
-    { text: "Chitrakut Camp Registration starts soon😜",
-      link:"/camp"
+    { text: "Chitrakut Camp Registration click here",
+      link:"/yatra"
      },
     { text: "Rath Yatra At Chaouparan🥳",
       link:'/'
      },
-    { text: "HG KLP class from 9am" ,
-      link:'/'
-    },
+    
   
   ];
   

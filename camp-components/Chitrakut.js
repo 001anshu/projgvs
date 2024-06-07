@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Chitrakut = () => {
@@ -13,10 +14,14 @@ const Chitrakut = () => {
          <h1 className=' '>Present`s</h1>
          <h1 className=' '>Chitrakut Dham Yatra</h1>
         </div>
-        <img
-        className='my-32 lg:m-2'
-        src='chitrakut01.png'
+        <Image
+        className='my-32 lg:m-2 w-full'
+        src='/chitrakut01.png'
         alt='chitrakut img'
+        placeholder="blur"
+        blurDataURL="20"
+        width={2000}
+        height='600'
         />
         
       </div>

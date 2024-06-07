@@ -3,12 +3,16 @@ import React from "react";
 const Date = () => {
   return (
     <div id="date" className="flex flex-col md:flex-row justify-center m-4 ">
+      <div className="md:hidden flex md:w-1/2">
+        <img className="rounded-xl w-full " src="chitrakut03.jpg" />
+      </div>
       <div
         className="flex text-center justify-center m-2 rounded-xl md:w-1/3"
         style={{
           backgroundColor: "rgb(27,36,46)",
         }}
       >
+        
         <div
           className="p-4 md:m-10"
           style={{
@@ -37,9 +41,7 @@ const Date = () => {
 
         </div>
       </div>
-      <div>
-        <img className="rounded-xl" src="chitrakut02.png" />
-      </div>
+     
     </div>
   );
 };
