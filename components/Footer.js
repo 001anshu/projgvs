@@ -9,7 +9,7 @@ export default function Footer() {
             <img src="/header_logo.jpeg" alt="" className="h-20 lg:h-20 w-8/12 sm:w-auto self-center object-contain" />
             <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
               <b>Address:</b> Haldia WEST BENGAL<br/>
-              Gaoranga vedic society , Khusdiram Nagaer, INDIA -721657 <br/>
+              Gauranga vedic society , Khusdiram Nagaer, INDIA -721657 <br/>
               <b>Email:</b>yatra.gaurangavedic@gmail.com<br/><b>Mobile:</b> +918986472757
             </div>
             <div className="text-sm text-color mb-10 f-f-l self-center">
@@ -20,7 +20,7 @@ export default function Footer() {
                   rel="noreferrer noopener"
                   className=" sm:text-center sm:text-base transition-all ease-in-out"
                 >
-                  {"</>"} with 💛 by anshukr{" "}
+                  
                 </a>
               </span>
             </div>
