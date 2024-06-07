@@ -8,9 +8,9 @@ export default function Footer() {
           <div className="text-black flex flex-col md:items-center f-f-l pt-3 w-full">
             <img src="/header_logo.jpeg" alt="" className="h-20 lg:h-20 w-8/12 sm:w-auto self-center object-contain" />
             <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
-              <b>Address:</b> Rajasthan Technical University<br/>
-              Akelgarh, Rawatbhata Road, Kota - 324010 <br/>
-              <b>Email:</b> admin@teamhnm.org<br/><b>Mobile:</b> +919142759653
+              <b>Address:</b> Haldia WEST BENGAL<br/>
+              Gaoranga vedic society , Khusdiram Nagaer, INDIA -721657 <br/>
+              <b>Email:</b>yatra.gaurangavedic@gmail.com<br/><b>Mobile:</b> +918986472757
             </div>
             <div className="text-sm text-color mb-10 f-f-l self-center">
               <span className="text-sm">
