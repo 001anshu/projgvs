@@ -5,7 +5,7 @@ import Information from "./Information";
 
 const Display = () => {
   const info = [
-    { text: "Chitrakut Camp Registration click here",
+    { text: "Chitrakut Camp Registration -> click here",
       link:"/yatra"
      },
     { text: "Rath Yatra At Chaouparan🥳",

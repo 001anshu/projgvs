@@ -10,6 +10,7 @@ import Donate from '../components/Donate';
 import Form from '../components/Form';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Date from '@/camp-components/Date';
 
 const IndexPage = () => {
   return (
@@ -17,7 +18,7 @@ const IndexPage = () => {
       <Navbar/>
       <Display />
       <Home />
-      <Features />
+      {/* <Features /> */}
       <About />
       <Courses />
       <Projects />

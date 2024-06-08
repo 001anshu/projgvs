@@ -41,8 +41,7 @@ const Experience = () => {
         style={{
           
           fontSize: "3rem", // Default font size for small to medium screens
-          "@media (min-width: 700px)": {
-            
+          "@media (minWidth: 700px)": {
             fontSize: "6.25rem", 
           },
         }}

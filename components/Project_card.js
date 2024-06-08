@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Project_card = ({ props }) => {
@@ -19,9 +20,11 @@ const Project_card = ({ props }) => {
               {props.header}
             </h1>
             <p className="text-sm md:text-md m-4 lg:m-10">{props.discription}</p>
+            <Link href={"/construction"}>
             <button className="bg-indigo-500 p-4 m-4 text-white">
               KNOW MORE →{" "}
             </button>
+            </Link>
           </div>
         </div>
       ) : (
@@ -40,9 +43,11 @@ const Project_card = ({ props }) => {
               {props.header}
             </h1>
             <p className="text-sm md:text-md m-4 lg:m-10">{props.discription}</p>
+            <Link href={"/construction"}>
             <button className="bg-indigo-500 p-4 m-4 text-white">
               KNOW MORE →{" "}
             </button>
+            </Link>
           </div>
         </div>
       )}

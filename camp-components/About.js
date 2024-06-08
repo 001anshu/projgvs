@@ -9,12 +9,13 @@ const About = () => {
     
     <div className="mb-4 flex flex-col justify-center items-center max-w-[1200px] rounded-xl "style={{border:'solid rgb(20,163,244) 2px',
           backgroundColor:'rgb(212,228,248)'}}>
-      <p className="font-bold m-4 text-center">
-        "We are not human beings having a spiritual experience; we are spiritual beings having a human experience." — Srila Prabhupada
-      </p>
+      
       <h1 className="text-5xl m-4 text-orange-400 lg:m-6 text-center">
         About Yatra
       </h1>
+      <p className="font-bold m-4 text-center">
+        "We are not human beings having a spiritual experience; we are spiritual beings having a human experience." — Srila Prabhupada
+      </p>
       <div className="md:text-xl text-md m-4 lg:m-6 text-center" style={{
         
       }}>
@@ -26,9 +27,9 @@ const About = () => {
 <p>With thousands of devotees participating, these yatras give devotees a wonderful opportunity to hear hari-katha and chant the holy names with complete absorption in an environment free from one’s regular household and professional anxieties.</p>
       
       </div>
-      <button className="bg-indigo-500 md:w-1/3 rounded-lg    p-4 m-4 text-white">
+      {/* <button className="bg-indigo-500 md:w-1/3 rounded-lg    p-4 m-4 text-white">
         KNOW MORE →{" "}
-      </button>
+      </button> */}
     </div>
   </div>
   )

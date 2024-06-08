@@ -1,11 +1,17 @@
+"use client"
+import Link from "next/link";
 import React from "react";
 
 const Date = () => {
   return (
     <div id="date" className="flex flex-col md:flex-row justify-center m-4 ">
-      <div className="md:hidden flex md:w-1/2">
-        <img className="rounded-xl w-full " src="chitrakut03.jpg" />
+      <div className="md:hidden flex ">
+        <img className="rounded-xl w-full  " style={{
+
+          maxWidth:"900px"
+        }} src="chitrakut03.jpg" />
       </div>
+      
       <div
         className="flex text-center justify-center m-2 rounded-xl md:w-1/3"
         style={{
@@ -36,6 +42,14 @@ const Date = () => {
           <h1 className="md:text-4xl font-semibold text-2xl  m-2"> Departure from Yatra</h1>
           <h1 className="md:text-3xl text-xl mb-4 m-2">24th Sept</h1>
           {/* <h1 className="md:text-4xl text-2xl mb-4 m-2">more information coming soon</h1> */}
+          <Link href="http://gaurangavedic.org.in/yatra" passHref className="">
+      
+          <button className="p-4 abs rounded-lg text-2xl" style={{
+            backgroundColor:"rgb(290,160,50)",
+            color:"white"
+          }}  >Rgister Now</button>
+      
+      </Link>
    
           
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Accomodation = () => {
@@ -19,7 +20,7 @@ const Accomodation = () => {
             style={{
               margin:"10px",
               fontSize: "2rem",
-              "@media(min-width:766px)":{fontSize:"4rem"}
+              "@media(minWidth:766px)":{fontSize:"4rem"}
              
               
             }}
@@ -99,6 +100,7 @@ const Accomodation = () => {
               margin: "auto",
             }}
           >
+            <Link href="http://gaurangavedic.org.in/yatra" passHref >
             <button
               className="bg-yellow-200 text-center p-2 m-2 flex justify-center  items-center"
               style={{
@@ -107,6 +109,7 @@ const Accomodation = () => {
             >
               Register Now
             </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -12,13 +12,14 @@ const About = () => {
         <img className="md:w-full  rounded-xl" src="/prabhupada.png" alt="prabhupada" />
       </div>
       <div className="mb-4 md:w-1/2">
+        
+        <h1 className="text-3xl m-4 text-orange-400 lg:m-6">
+          Experience An Amazing Indian Vedic Culture Journey
+        </h1>
         <p className="font-bold m-4">
           "Our duty is to spread Krishna consciousness and alleviate the
           suffering of others in this age of ignorance." — Srila Prabhupada
         </p>
-        <h1 className="text-3xl m-4 text-orange-400 lg:m-6">
-          Experience An Amazing Indian Vedic Culture Journey
-        </h1>
         <p className="text-md m-4 lg:m-6">
           The Society for Nature, Humanity, and Spirituality also emphasizes the
           importance of community engagement and collective well-being. Through
@@ -31,9 +32,9 @@ const About = () => {
           Gita, and working tirelessly to create a sustainable and enlightened
           world for all.
         </p>
-        <button className="bg-indigo-500 p-4 m-4 text-white">
+        {/* <button className="bg-indigo-500 p-4 m-4 text-white">
           KNOW MORE →{" "}
-        </button>
+        </button> */}
       </div>
     </div>
   );
