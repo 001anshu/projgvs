@@ -12,7 +12,7 @@ const Information=({info})=>{
         info.map((i,ind)=>(
           <Link href={i.link} key={ind}>
             
-          <ul className=" focus:bg-blue-500 text-xl font-semibold text-red-600 m-2 p-2" >
+          <ul className=" hover:text-blue-500 text-xl font-semibold text-red-600 m-2 p-2" >
             {"->"} {i.text}
          
           </ul>
