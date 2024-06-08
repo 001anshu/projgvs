@@ -2,7 +2,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 /* styles/globals.css */
+.hover_yellow:hover{
+  background-color: rgb(253, 207, 2);
 
+}
+
+.bg_black{
+  background-color: black;
+}
 
 
 .animate-float {
@@ -18,9 +25,7 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-.padding{
-  padding: 10px;
-}
+
 
 
 

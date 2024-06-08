@@ -7,7 +7,7 @@ import Link from "next/link";
 const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
   const toggleMenu = () => {
-    setisOpen(!isOpen);
+    setisOpen(!isOpen); 
   };
 
   const items1 = [
@@ -15,8 +15,8 @@ const Navbar = () => {
     { name: "Dates", id: "date" }, //done
     { name: "Experience", id: "experience" },
     { name: "Memories", id: "memories" },
-    { name: "Accomodation", id: "accomodation" }, //done
-    { name: "Eligibility", id: "eligibility" }, //done
+    // { name: "Accomodation", id: "accomodation" }, //done
+    // { name: "Eligibility", id: "eligibility" }, //done
     { name: "Contact", id: "contact" },
   ];
 

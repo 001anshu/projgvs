@@ -5,3 +5,6 @@ export const book="https://img.icons8.com/?size=100&id=t0ojB0Cidpx4&format=png&c
 export const laptop="https://img.icons8.com/?size=100&id=111403&format=png&color=000000"
 export const teacher="https://img.icons8.com/?size=100&id=qkkMCz7FwpfE&format=png&color=000000";
 export const students="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlGJo05qDvILSTn-KGUPphuRByEZlsXEnXRQ&s";
+export const Registration="https://img.icons8.com/?size=100&id=8953&format=png&color=000000";
+export const database="https://img.icons8.com/?size=100&id=k1xXzD3NEvLF&format=png&color=000000";
+export const accomodation="https://img.icons8.com/?size=100&id=eeJeoPh0lns0&format=png&color=000000";

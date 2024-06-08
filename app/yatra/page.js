@@ -20,8 +20,8 @@ const Camp = () => {
       <Date/>
       <Experience/>
       <Gallary/>
-      <Accomodation/>
-      <Eligibility/>
+      {/* <Accomodation/> */}
+      {/* <Eligibility/> */}
       <Contact/>
 
     </div>
