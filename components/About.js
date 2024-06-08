@@ -8,7 +8,7 @@ const About = () => {
       id="about"
       className="md:flex p-4 mx-auto my-6 max-w-[1200px] justify-center items-center shadow-2xl shadow-indigo-500 rounded-xl"
     >
-      <div className=" m-4 md:p-32 md:flex h-1/2 relative overflow-hidden w-1/2">
+      <div className=" m-4 md:p-32 md:flex h-1/2 relative overflow-hidden md:w-1/2">
         <img className="md:w-full  rounded-xl" src="/prabhupada.png" alt="prabhupada" />
       </div>
       <div className="mb-4 md:w-1/2">

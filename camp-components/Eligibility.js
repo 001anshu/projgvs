@@ -14,7 +14,7 @@ const Eligibility = () => {
           <p
             className="text-center  "
             style={{
-              fontSize: "3rem",
+              fontSize: "2rem",
               padding: "20px",
             }}
           >

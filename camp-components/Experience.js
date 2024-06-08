@@ -7,21 +7,21 @@ import Gallary from "./Gallary";
 const Experience = () => {
   const exp=[{
     title:"KRISHNA KATHA",
-    src:"camp01.jpg",
+    src:"camp32.webp",
     alt:"img",
     disc:"Do not miss the Krishna Katha by HG Kumar Lila Pr. Relish the nectar 2 times a day which includes the pastimes of the dham and pastimes from scriptures."
   },
   {
     title:"ECSTATIC KIRTAN",
-    src:"camp02.jpg",
+    src:"camp15.webp",
     alt:"img",
-    disc:"Do not miss the Krishna Katha by HG Kumar Lila Pr. Relish the nectar 2 times a day which includes the pastimes of the dham and pastimes from scriptures."
+    disc:"Hear the ecstatic kirtan by Devotees in the Nama Sankirtan."
   },
   {
     title:"EXCITING DRAMA",
-    src:"camp13.jpg",
+    src:"drama.png",
     alt:"img",
-    disc:"Do not miss the Krishna Katha by HG Kumar Lila Pr. Relish the nectar 2 times a day which includes the pastimes of the dham and pastimes from scriptures."
+    disc:"By drama, you can preach. Just like Caitanya Mahāprabhu, He was a very great scholar, but He took part in the drama.-  Srila Prabhupada"
   },
 
 ]
@@ -37,10 +37,10 @@ const Experience = () => {
     >
       
       <h1
-        className="text-5xl p-8 text-center font-semibold"
+        className="md:text-5xl p-8 text-center font-semibold"
         style={{
           
-          fontSize: "4rem", // Default font size for small to medium screens
+          fontSize: "3rem", // Default font size for small to medium screens
           "@media (min-width: 700px)": {
             
             fontSize: "6.25rem", 
@@ -51,7 +51,7 @@ const Experience = () => {
       </h1>
       <div className="md:flex">
       {exp.map((e, i) => (
-          <ExpeCard exp={e}/>
+          <ExpeCard key={i} exp={e}/>
         ))}
       </div>
       

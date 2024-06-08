@@ -44,7 +44,7 @@ const Courses = () => {
     {
       img: [
         {
-          src:"counseling01.jpg",
+          src:"counseling03.webp",
         },
         {
           src:"counseling02.jpg"

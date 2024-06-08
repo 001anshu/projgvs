@@ -26,7 +26,7 @@ const About = () => {
 <p>With thousands of devotees participating, these yatras give devotees a wonderful opportunity to hear hari-katha and chant the holy names with complete absorption in an environment free from one’s regular household and professional anxieties.</p>
       
       </div>
-      <button className="bg-indigo-500 w-1/3   p-4 m-4 text-white">
+      <button className="bg-indigo-500 md:w-1/3 rounded-lg    p-4 m-4 text-white">
         KNOW MORE →{" "}
       </button>
     </div>

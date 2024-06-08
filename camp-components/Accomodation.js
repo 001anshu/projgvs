@@ -15,10 +15,12 @@ const Accomodation = () => {
         }}
       >
         <div
-            className="text-center   font-semibold"
+            className="text-center    font-semibold"
             style={{
-              fontSize: "3rem",
-              padding:"20px"
+              margin:"10px",
+              fontSize: "2rem",
+              "@media(min-width:766px)":{fontSize:"4rem"}
+             
               
             }}
           >
