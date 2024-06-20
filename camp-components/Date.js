@@ -61,12 +61,13 @@ const Date = () => {
             {" "}
             Yatra Dates
           </h1>
+
           <h1 className="md:text-xl text-xl mb-4 underline ">➢ 20th Nov - 24th Nov</h1>
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Departure from Yatra
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">➢ 25th Nov</h1>
+          <h1 className="md:text-xl text-xl mb-4 underline">➢ 25th Nov</h1>
           {/* <h1 className="md:text-4xl text-2xl mb-4 m-2">more information coming soon</h1> */}
           {/* <Link href="http://gaurangavedic.org.in/yatra" passHref className="">
       
