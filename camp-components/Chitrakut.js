@@ -10,17 +10,17 @@ const Chitrakut = () => {
           color:'white',
           fontFamily:'-moz-initial'
         }}>
-         <h1 className=' ' style={{color:'white'}}>Gauranga Vedic Socity</h1>
+         <h1 className=' ' style={{color:'white'}}>Gauranga Vedic Society</h1>
          <h1 className=' '>Present`s</h1>
          <h1 className=' '>Chitrakut Dham Yatra</h1>
         </div>
         <Image
-        className='my-32 lg:m-2 w-full'
+        className='  w-full'
         src='/chitrakut01.png'
         alt='chitrakut img'
         placeholder="blur"
         blurDataURL="20"
-        width={2000}
+        width={1700}
         height='600'
         />
         

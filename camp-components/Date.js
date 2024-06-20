@@ -1,19 +1,18 @@
 "use client"
 import Link from "next/link";
 import React from "react";
+import Features from "./Features";
+import Collapsable from "./Collapsable";
 
 const Date = () => {
   return (
-    <div id="date" className="flex flex-col md:flex-row justify-center m-4 ">
-      <div className="md:hidden flex ">
-        <img className="rounded-xl w-full  " style={{
-
-          maxWidth:"900px"
-        }} src="chitrakut03.jpg" />
+    <div id="date" className="flex flex-col md:flex-row items-center justify-center m-4 ">
+      <div className="flex md:w-1/2 ">
+        <Collapsable/>
       </div>
       
       <div
-        className="flex text-center justify-center m-2 rounded-xl md:w-1/3"
+        className="flex text-center items-center justify-center m-2 rounded-xl lg:w-1/3"
         style={{
           backgroundColor: "rgb(27,36,46)",
         }}
@@ -25,6 +24,7 @@ const Date = () => {
             color: "white",
             border: "1px solid white ",
             borderRadius: "30px",
+            // minWidth:"500px",
           }}
         >
           {" "}

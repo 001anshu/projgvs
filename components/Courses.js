@@ -6,16 +6,16 @@ const Courses = () => {
     {
       img: [
         {
-          src: "yatra01.jpg",
+          src: "/yatra01.jpg",
         },
         {
-          src: "yatra02.jpg",
+          src: "/yatra02.jpg",
         },
         {
-          src: "yatra03.jpg",
+          src: "/yatra03.jpg",
         },
         {
-          src: "yatra04.jpg",
+          src: "/yatra04.jpg",
         },
       ],
       link:"/yatra",
@@ -24,16 +24,16 @@ const Courses = () => {
     },
     {
       img: [{
-          src: "prasad.jpg",
+          src: "/prasad.jpg",
         },
         {
-          src: "prasad02.jpg",
+          src: "/prasad02.jpg",
         },
         {
-          src: "prasad03.jpg",
+          src: "/prasad03.jpg",
         },
         {
-          src: "prasad04.jpg",
+          src: "/prasad04.jpg",
         },
        
       ],
@@ -44,10 +44,10 @@ const Courses = () => {
     {
       img: [
         {
-          src:"counseling03.webp",
+          src:"/counseling03.webp",
         },
         {
-          src:"counseling02.jpg"
+          src:"/counseling02.jpg"
         }
       
         

@@ -1,64 +1,55 @@
-// import { global } from "styled-jsx/css";
 import Link from "next/link";
 import React from "react";
 
 const Features = () => {
-  
   return (
-    <div id="features">
-      <div className="lg:flex bg-gradient-to-r to-sky-500 md:mx-32 m-10 rounded-xl md:min-h-50  p-2   lg:justify-center  text-xl text-white">
-        <div className="flex flex-col items-center md:mx-10  ">
-        <Link href="http://gaurangavedic.org.in/yatra" passHref>
-          <button
-            className="lg:text-2xl text-center bg_black  rounded-lg hover_yellow  p-2 change"
-            style={{
-              // backgroundColor: "rgb(27,36,46)",
-              padding: "20px",
-              fontSize: "1.5rem",
-              margin: "10px",
-              width: "300px",
-              
-            }}
-          >
-            Registration
-          </button>
-          </Link>
-        </div>
-        
-        <div className="flex flex-col items-center md:mx-10 hover:bg-white">
+    <div
+      id="features"
+      className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-400 to-sky-500 rounded-xl text-xl text-white"
+    >
+      <div className="flex flex-col justify-center items-center space-y-4">
         <Link href={"/construction"}>
           <button
-            className="lg:text-2xl text-center bg_black  rounded-lg hover_yellow  p-2 change"
+            className="lg:text-2xl text-center bg_black rounded-lg hover_yellow   p-2 change"
             style={{
-              // backgroundColor: "rgb(27,36,46)",
               padding: "20px",
               fontSize: "1.5rem",
-              margin: "10px",
-              width: "300px",
-              
+              marginTop: "60px",
+              width: "250px",
+              margin: "20px",
             }}
           >
             Database Entry
           </button>
-          </Link>
-        </div>
-        <div className="flex flex-col items-center md:mx-10">
-          <Link href={"/construction"}>
+        </Link>
+        <Link href="http://gaurangavedic.org.in/yatra" passHref>
           <button
-            className="lg:text-2xl text-center bg_black  rounded-lg hover_yellow  p-2 change"
+            className="lg:text-2xl text-center bg_black rounded-lg hover_yellow p-2 change"
             style={{
-              // backgroundColor: "rgb(27,36,46)",
               padding: "20px",
               fontSize: "1.5rem",
-              margin: "10px",
-              width: "300px",
-              
+              marginTop: "60px",
+              width: "250px",
+              margin: "20px",
             }}
           >
-            Accomodation
+            Registration
           </button>
-          </Link>
-        </div>
+        </Link>
+        <Link href={"/construction"}>
+          <button
+            className="lg:text-2xl text-center bg_black rounded-lg hover_yellow p-2 change"
+            style={{
+              padding: "20px",
+              fontSize: "1.5rem",
+              marginTop: "60px",
+              width: "250px",
+              margin: "20px",
+            }}
+          >
+            Accommodation
+          </button>
+        </Link>
       </div>
     </div>
   );

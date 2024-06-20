@@ -69,7 +69,7 @@ const Gallary = () => {
         <p className="" style={{ fontSize: "3rem", color: 'white', padding: "40px" }}>YATRA MEMORIES</p>
       </div>
       <div className="" style={{
-         display: "flex", flexWrap: "wrap", justifyContent: "center" 
+         display: "flex", flexWrap: "wrap", justifyContent: "center",maxHeight:"600px",overflowY:"scroll" 
       }}>
         {img.map((image, index) => (
           <div key={index} style={{ width: "300px", padding: "8px" }}>

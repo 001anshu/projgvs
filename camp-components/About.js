@@ -51,7 +51,7 @@ const About = () => {
         KNOW MORE →{" "}
       </button> */}
       </div>
-      <Features/>
+      {/* <Features/> */}
     </div>
   );
 };

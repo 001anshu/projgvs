@@ -37,18 +37,12 @@ const Experience = () => {
     >
       
       <h1
-        className="md:text-5xl p-8 text-center font-semibold"
-        style={{
-          
-          fontSize: "3rem", // Default font size for small to medium screens
-          "@media (minWidth: 700px)": {
-            fontSize: "6.25rem", 
-          },
-        }}
+        className="md:text-7xl text-5xl p-8 text-center font-semibold"
+        
       >
         Experience The Unlimited
       </h1>
-      <div className="md:flex">
+      <div className="md:flex justify-center w-full">
       {exp.map((e, i) => (
           <ExpeCard key={i} exp={e}/>
         ))}
