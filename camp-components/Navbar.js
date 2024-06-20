@@ -1,13 +1,13 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import Navbarbtn from "@/components/Navbarbtn";
+import React, { useEffect, useState } from "react";
 
-import Link from "next/link";
+
 
 const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
   const toggleMenu = () => {
-    setisOpen(!isOpen); 
+    setisOpen(!isOpen);
   };
 
   const items1 = [
@@ -30,64 +30,64 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative">
-      <div
-        className="flex items-center  lg:justify-center md:justify-between"
-        style={{ backgroundColor: "rgb(20,163,244)" }}
-      >
-        <div
-          className="hidden m-2 rounded-lg lg:flex lg:items-center  lg:justify-center "
-          style={{
-            backgroundColor: "rgb(212,228,248)",
-          }}
-        >
+    <div className="  ">
+      <div className="bg-gradient-to-l from-sky-400 flex items-center drop-shadow-2xl shadow-indigo-400  justify-between   ">
+        <img
+          src="/header_logo.jpeg"
+          alt="Description of the image"
+          className="w-10 m-2  lg:w-18 md:w-16"
+        />
+
+        <div className="text-xl lg:text-2xl text-black font-semibold font-mono ">GVS Dham Yatra Services</div>
+        <div>
+        <div className="hidden m-2 lg:flex  lg:justify-center ">
           {items1.map((item, i) => (
+             
             <Navbarbtn
               name={item.name}
               key={i}
               gotoId={() => scrollToSection(item.id)}
             />
+            
           ))}
+          
         </div>
-      </div>
-      <div>
-        <div>
-          <div className="lg:hidden relative ">
-            <button
-              onClick={toggleMenu}
-              className="focus:outline-none absolute  right-0 m-2 lg:hidden ml-96  "
+        </div>
+        <div className="">
+          <button onClick={toggleMenu} className="focus:outline-none m-2 lg:hidden ">
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                className="w-6 h-6 "
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
-                ></path>
-              </svg>
-            </button>
-          </div>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+              ></path>
+            </svg>
+          </button>
         </div>
       </div>
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } bg-white w-1/3 absolute  right-0 my-10  z-50 shadow-2xl `}
+        } bg-white w-1/3 absolute  right-0 z-50 shadow-2xl `}
       >
-        <div className="max-w-sm  mx-auto border-b bg-indigo-50 border-gray-300 flex flex-col  items-center p-4">
+        <div className="max-w-sm mx-auto border-b bg-indigo-50 border-gray-300 flex flex-col items-center p-4">
           {items1.map((item, i) => (
+             
             <Navbarbtn
               name={item.name}
               key={i}
               gotoId={() => scrollToSection(item.id)}
             />
+            
           ))}
+          
         </div>
       </div>
     </div>

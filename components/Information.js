@@ -8,18 +8,14 @@ const Information=({info})=>{
       </div>
       <div className="bg-gradient-to-r from-indigo-200">
       
-       {
-        info.map((i,ind)=>(
-          <Link href={i.link} key={ind}>
-            
-          <ul className=" hover:text-blue-500 text-xl font-semibold text-red-600 m-2 p-2" >
-            {"->"} {i.text}
-         
-          </ul>
-          </Link>
+      <ul className="  text-xl font-semibold text-black m-2 p-2">
+        # Chitrakut Camp Registration <Link href={"/yatra"}> <span className="text-blue-500 underline"> click here</span>  </Link>
         
-        ))
-       }
+        </ul>
+        <ul className="  text-xl font-semibold text-black m-2 p-2">
+        # Rath Yatra Registration<Link href={"/construction"}> <span className="text-blue-500 underline"> click here</span>  </Link>
+        
+        </ul>
         
       </div>
 

@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
               <b>Address:</b> Haldia WEST BENGAL<br/>
               Gauranga vedic society , Khusdiram Nagaer, INDIA -721657 <br/>
-              <b>Email:</b>yatra.gaurangavedic@gmail.com<br/><b>Mobile:</b> +918986472757
+              <b>Email:</b>gaurangavedicsociety@gmail.com<br/>
             </div>
             <div className="text-sm text-color mb-10 f-f-l self-center">
               <span className="text-sm">

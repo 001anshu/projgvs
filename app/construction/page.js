@@ -7,7 +7,7 @@ const underconstruction
   return (
     <div>
       <Navbar/>
-      <h1 className='md:text-5xl text-2xl p-10' >This Page is under construction</h1>
+      <h1 className='md:text-xl text-2xl p-10' >This Page is under construction</h1>
       <Footer/>
 
     </div>

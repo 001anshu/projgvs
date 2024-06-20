@@ -15,8 +15,8 @@ const CourseCard = ({ data }) => {
         <div className="flex justify-center items-center">
           {data.link!='/' &&
           <Link href={data.link} className="flex justify-center items-center">
-            <button className="bg-indigo-500 md:w-1/2 m-2  flex justify-center items-center font-mono rounded-md text-xl text-white p-2 md:absolute md:bottom-0 hover_yellow">
-              Register
+            <button className="bg-indigo-500 md:w-1/2 m-2  flex justify-center items-center font-mono rounded-md text-xl text-white p-2 md:absolute md:bottom-0 ">
+              More Info
             </button>
           </Link>
 }
