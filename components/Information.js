@@ -13,7 +13,7 @@ const Information=({info})=>{
         
         </ul>
         <ul className="  text-xl font-semibold text-black m-2 p-2">
-        # Rath Yatra Registration<Link href={"/construction"}> <span className="text-blue-500 underline"> click here</span>  </Link>
+        # Rath Yatra in Chouparan
         
         </ul>
         

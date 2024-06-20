@@ -11,7 +11,7 @@ const Date = () => {
       className="flex flex-col md:flex-row items-center gap-2 justify-center m-4 "
     >
       
-      <div className=" bg-black text-white flex md:w-1/2 w-full rounded-lg">
+      <div className=" bg-black text-white flex md:w-3/5 w-full rounded-lg">
         <Collapsable />
       </div>
       <div
@@ -30,44 +30,42 @@ const Date = () => {
           }}
         >
           {" "}
-          <h1 className="font-bold text-4xl m-4">Important Dates</h1>
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
+          <h1 className="font-bold text-3xl m-4 underline">Important Dates</h1>
+          <div className="p-2">
+          <h1 className="md:text-xl font-semibold text-xl   m-2">
             {" "}
             Database Entry
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 underline">➢ 21th June</h1>
-          <div className="p-2">
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
+          <h1 className="md:text-lg text-lg mb-4 ">➢ 21th June</h1>
+          
+          <h1 className="md:text-xl font-semibold text-xl  m-2">
             {" "}
-            Registration Starts
+            Registration Dates
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 underline ">➢ 15th July  </h1></div>
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
-            {" "}
-            Last date of Registration
-          </h1>
-          <h1 className="md:text-xl text-xl mb-4 underline ">➢ 28th July</h1>
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
+          <h1 className=" text-lg mb-4  ">➢ 15th July - 28th July  </h1>
+          
+          <h1 className=" font-semibold text-xl  m-2">
             {" "}
             Accommodation Booking
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 underline ">➢ 8th August-18th August</h1>
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
+          <h1 className=" text-lg mb-4 ">➢ 8th August - 18th August</h1>
+          <h1 className="md:text-xl font-semibold text-xl  m-2">
             {" "}
-            Arrival of devotees
+            Arrival of Devotees
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 underline ">➢ 20th Nov</h1>
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
+          <h1 className="md:text-lg text-lg mb-4 ">➢ 20th November</h1>
+          <h1 className="md:text-xl font-semibold text-xl  m-2">
             {" "}
             Yatra Dates
           </h1>
 
-          <h1 className="md:text-xl text-xl mb-4 underline ">➢ 20th Nov - 24th Nov</h1>
-          <h1 className="md:text-2xl font-semibold text-2xl  m-2">
+          <h1 className="md:text-lg text-lg mb-4 ">➢ 20th November - 24th November</h1>
+          <h1 className="md:text-xl font-semibold text-xl  m-2">
             {" "}
             Departure from Yatra
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 underline">➢ 25th Nov</h1>
+          <h1 className="md:text-lg text-lg mb-4 ">➢ 25th November</h1>
+          </div>
           {/* <h1 className="md:text-4xl text-2xl mb-4 m-2">more information coming soon</h1> */}
           {/* <Link href="http://gaurangavedic.org.in/yatra" passHref className="">
       

@@ -14,33 +14,37 @@ export default function Collapsable() {
         className="p-2 "
       >
         {
-          <div className="bg-gray-700 p-2 max-h-[580px] overflow-y-scroll rounded-lg ">
+          <div className="bg-gray-700 p-2 max-h-[490px] overflow-y-scroll rounded-lg ">
             <p className="p-2 border-b">
-              For New member Database entry{" "}
+              For new member database entry{" "}
               <Link href={"https://db.gaurangavedic.org.in/"} passHref>
                 {" "}
-                <span className="text-blue-500 underline">click here</span>
+                <span className="text-blue-500 underline text-xl">click here</span>
               </Link>
             </p>
-            <p className="p-2 border-b">
-              Those who already have an HLZ ID do not need to re-enter it into
-              the database.
-            </p>
+            <div>
+              {"Note "}
+              <ul className="p-2 ">
+                * Those who already have an HLZ ID do not need to re-enter it into
+                the database.
+              </ul>
+              <ul className="p-2">
+                * Only authorized (Alumni, Area Co-ordinators, etc.) persons are
+                allowed to add new devotees.
+              </ul>
+              <ul className="p-2 ">
+                * For non-authorized persons please contact to below location head
+                to get yourself added
+              </ul>
+            </div>
 
-            <p className="p-2 border-b">
-            *Note*: Only authorized (Alumni, Area Co-ordinators, etc.) persons are allowed to add new devotees.
-            </p>
-            <p className="p-2 border-b">
-              For Non-Authorized persons please contact to below locations head
-              to get yourself added
-            </p>
             <div className="overflow-x-scroll">
               <table className="border border-solid p-1">
                 <thead className="border border-solid p-1">
                   <tr className="border border-solid p-1">
                     <th className="border border-solid p-1">Center</th>
-                    <th className="border border-solid p-1">Center Head</th>
-                    <th className="border border-solid p-1">Contact Number</th>
+                    <th className="border border-solid p-1">Location Head</th>
+                    <th className="border border-solid p-1">Contact</th>
                   </tr>
                 </thead>
                 <tbody className="border border-solid p-1">
@@ -59,7 +63,7 @@ export default function Collapsable() {
                       II. Haldia Voice students
                     </td>
                     <td className="border border-solid p-1">Satyam pr</td>
-                    <td className="border border-solid p-1">9473034907.0</td>
+                    <td className="border border-solid p-1">9473034907</td>
                   </tr>
 
                   <tr className="border border-solid p-1">
@@ -67,77 +71,77 @@ export default function Collapsable() {
                       III. Asansol Devotees (apart from I &II)
                     </td>
                     <td className="border border-solid p-1">Ashesh Nitai Pr</td>
-                    <td className="border border-solid p-1">8759125750.0</td>
+                    <td className="border border-solid p-1">8759125750</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       IV. Delhi, Amethi Devotees (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Prem Prakash Pr</td>
-                    <td className="border border-solid p-1">9923903893.0</td>
+                    <td className="border border-solid p-1">9923903893</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       V. Dhanbad Devotees (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Rajiv Soni Pr</td>
-                    <td className="border border-solid p-1">7001065808.0</td>
+                    <td className="border border-solid p-1">7001065808</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       VI. Gaya Devotees (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Purushottam Pr</td>
-                    <td className="border border-solid p-1">7028925090.0</td>
+                    <td className="border border-solid p-1">7028925090</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       VII. Haldia Congregation (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Gaurav Pr 19</td>
-                    <td className="border border-solid p-1">9775261038.0</td>
+                    <td className="border border-solid p-1">9775261038</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       VIII. Haldia Gurukul (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Viswajit pr</td>
-                    <td className="border border-solid p-1">8007259135.0</td>
+                    <td className="border border-solid p-1">8007259135</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       IX. Meghalaya (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Rupesh pr</td>
-                    <td className="border border-solid p-1">7098822819.0</td>
+                    <td className="border border-solid p-1">7098822819</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       X. Nawada Devotees (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Vikash Pr</td>
-                    <td className="border border-solid p-1">7739109605.0</td>
+                    <td className="border border-solid p-1">7739109605</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       XI. Patna Devotees (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Neeraj Pr</td>
-                    <td className="border border-solid p-1">8210707682.0</td>
+                    <td className="border border-solid p-1">8210707682</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       XII. Sitamarhi Devotees (apart from I&II)
                     </td>
                     <td className="border border-solid p-1">Neelmadhav Pr</td>
-                    <td className="border border-solid p-1">8368616297.0</td>
+                    <td className="border border-solid p-1">8368616297</td>
                   </tr>
                   <tr className="border border-solid p-1">
                     <td className="border border-solid p-1">
                       XII. Other centres (except all above)
                     </td>
                     <td className="border border-solid p-1">Shailesh pr</td>
-                    <td className="border border-solid p-1">8986472757.0</td>
+                    <td className="border border-solid p-1">8986472757</td>
                   </tr>
                 </tbody>
               </table>
@@ -152,7 +156,7 @@ export default function Collapsable() {
         className="p-2 "
       >
         <div className="bg-gray-600 text-xl p-2 rounded-lg">
-          {defaultContent}
+        Registration hasn't started yet.
         </div>
       </AccordionItem>
       <AccordionItem
@@ -162,7 +166,7 @@ export default function Collapsable() {
         className="p-2"
       >
         <div className="bg-gray-600 text-xl p-2 rounded-lg">
-          {defaultContent}
+        Accommodation hasn't started yet.
         </div>
       </AccordionItem>
     </Accordion>

@@ -17,6 +17,7 @@ const Navbar = () => {
     { name: "Projects", id: "projects" },
     
     { name: "Contact", id: "contact" },
+    
 
   ];
 
@@ -41,6 +42,8 @@ const Navbar = () => {
         <div className="text-xl lg:text-2xl text-black font-semibold font-mono ">Guaranga Vedic Society</div>
         <div>
         <div className="hidden m-2 lg:flex  lg:justify-center ">
+        <Link href={"/yatra"}><Navbarbtn name="Yatra"
+            /></Link>
           {items1.map((item, i) => (
              
             <Navbarbtn
@@ -50,6 +53,8 @@ const Navbar = () => {
             />
             
           ))}
+          
+          
           
         </div>
         </div>
@@ -78,6 +83,8 @@ const Navbar = () => {
         } bg-white w-1/3 absolute  right-0 z-50 shadow-2xl `}
       >
         <div className="max-w-sm mx-auto border-b bg-indigo-50 border-gray-300 flex flex-col items-center p-4">
+        <Link href={"/yatra"}><Navbarbtn name="Yatra"
+            /></Link>
           {items1.map((item, i) => (
              
             <Navbarbtn
@@ -87,6 +94,7 @@ const Navbar = () => {
             />
             
           ))}
+          
           
         </div>
       </div>
