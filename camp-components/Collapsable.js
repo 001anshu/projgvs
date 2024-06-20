@@ -28,8 +28,7 @@ export default function Collapsable() {
             </p>
 
             <p className="p-2 border-b">
-              **Note**: Only authorized (Alumni of Haldia Voice,etc..) persons are
-              allowed to add new devotees.
+            *Note*: Only authorized (Alumni, Area Co-ordinators, etc.) persons are allowed to add new devotees.
             </p>
             <p className="p-2 border-b">
               For Non-Authorized persons please contact to below locations head
