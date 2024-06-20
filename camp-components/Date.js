@@ -35,37 +35,38 @@ const Date = () => {
             {" "}
             Database Entry
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">21th June</h1>
+          <h1 className="md:text-xl text-xl mb-4 ">➢ 21th June</h1>
+          <div className="p-2">
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Registration Starts
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">15th July</h1>
+          <h1 className="md:text-xl text-xl mb-4  ">➢ 15th July  </h1></div>
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Last date of Registration
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">28th July</h1>
+          <h1 className="md:text-xl text-xl mb-4 ">➢ 28th July</h1>
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Accommodation Booking
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">8th August-18th August</h1>
+          <h1 className="md:text-xl text-xl mb-4 ">➢ 8th August-18th August</h1>
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Arrival of devotees
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">20th Nov</h1>
+          <h1 className="md:text-xl text-xl mb-4 ">➢ 20th Nov</h1>
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Yatra Dates
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">20th Nov - 24th Nov</h1>
+          <h1 className="md:text-xl text-xl mb-4 ">➢ 20th Nov - 24th Nov</h1>
           <h1 className="md:text-2xl font-semibold text-2xl  m-2">
             {" "}
             Departure from Yatra
           </h1>
-          <h1 className="md:text-xl text-xl mb-4 ">25th Nov</h1>
+          <h1 className="md:text-xl text-xl mb-4 ">➢ 25th Nov</h1>
           {/* <h1 className="md:text-4xl text-2xl mb-4 m-2">more information coming soon</h1> */}
           {/* <Link href="http://gaurangavedic.org.in/yatra" passHref className="">
       
