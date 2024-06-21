@@ -8,3 +8,7 @@ export const students="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlG
 export const Registration="https://img.icons8.com/?size=100&id=8953&format=png&color=000000";
 export const database="https://img.icons8.com/?size=100&id=k1xXzD3NEvLF&format=png&color=000000";
 export const accomodation="https://img.icons8.com/?size=100&id=eeJeoPh0lns0&format=png&color=000000";
+export const Br02="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ5ffUmDNcuJT4Eb5xMsdtTMy73eG_fU6s6fI32oZMI7BCXNR8sBh5NL6r7xeZx4G29a-n-m-7nIwPknghLdQIgtWBs3_zTYw=w1160-h878"
+export const Br4="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ5ffUmDNcuJT4Eb5xMsdtTMy73eG_fU6s6fI32oZMI7BCXNR8sBh5NL6r7xeZx4G29a-n-m-7nIwPknghLdQIgtWBs3_zTYw=w1160-h878"
+export const Br10="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ5ffUmDNcuJT4Eb5xMsdtTMy73eG_fU6s6fI32oZMI7BCXNR8sBh5NL6r7xeZx4G29a-n-m-7nIwPknghLdQIgtWBs3_zTYw=w1160-h878"
+export const Br11="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ5ffUmDNcuJT4Eb5xMsdtTMy73eG_fU6s6fI32oZMI7BCXNR8sBh5NL6r7xeZx4G29a-n-m-7nIwPknghLdQIgtWBs3_zTYw=w1160-h878"

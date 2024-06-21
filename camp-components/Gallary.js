@@ -1,23 +1,31 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const Gallary = () => {
-  const handleMouseEnter = (e) => {
-    e.target.style.transform = "scale(1.1)";
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
   };
 
-  const handleMouseLeave = (e) => {
-    e.target.style.transform = "scale(1)";
+  const handleMouseLeave = () => {
+    setIsHovered(false);
   };
   const img = [
-    { src: "/camp01.jpg", alt: "camp01" },
-    { src: "/camp02.jpg", alt: "camp02" },
-    { src: "/camp03.webp", alt: "camp03" },
-    { src: "/camp04.webp", alt: "camp04" },
-    { src: "/camp05.webp", alt: "camp05" },
-    { src: "/camp06.webp", alt: "camp06" },
-    { src: "/camp07.webp", alt: "camp07" },
+    {
+      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbV53e3DoaDzj6WYa4Z3PXLk95ZX0maWTKjSdnPsvrkZnObnADaKRgHKC4heqfhlpBSgwM9pKTdifG3VeHIUOypP_ZO2E8vmdw=w1160-h878-rw-v1",
+      alt: "camp01",
+    },
+    {
+      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbh4A-QtC1iFuw39NKo-2G-gbHEbhtiAK2dqTcX_zAOqQBYvoH8mcQVLnxg4LLFI5Cp6t6wfO5hVh7A1zIiXDasrGaPSsg6OWI=w1160-h878-rw-v1",
+      alt: "camp02",
+    },
+    { src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbXz97UgHPO1MGQ4p-hdKaQfRKFNXijVGczl1538FAviWGfcoJCOsfyiEtLof9pfnU6ryLgIvuWjmsrSAC0bNRXugG_9n8hZog=w1160-h878", alt: "camp03" },
+    { src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ716Lm47psFdJgx0rYj3HNf5V05fP8W_qrFVZpsRj5yCKmuXCYk2Pe26y9je8j9xF1uligeieJbgTOgapkV0bEIbNd8tSNSw=w1160-h878", alt: "camp04" },
+    { src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZYYdRsCsjeNayeltZyAOnY1u4H6fAo61UY6BwZFQbuFmqergz8TrqBqdF_26vs9fNp5CKH3Y9of4w9gZ82ZEj98zAOfdycrQ=w1160-h878", alt: "camp05" },
+    { src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY3yCuxTFxEqiKW-kkszfnOCyicOJA-T9gx87EtE4q2qhxbVrcGNUAZwU4HI7nnzP1KcEHJKTIz1x9mnK_i9ESzn33sg7-vldU=w1160-h878", alt: "camp06" },
+    { src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcVtPxChiSpjskRpFNa4jTZ9UBKz5cV-5iCt9b77rRFRqnWxZ2fK2kO6d7ubvMxwcfdVQlGb5zgx9moR_deLWg5VHJP--vY2g=w1160-h878", alt: "camp07" },
     // { src: "/camp08.webp", alt: "camp08" },
     // { src: "/camp09.webp", alt: "camp09" },
     // { src: "/camp10.jpg", alt: "camp10" },
@@ -46,50 +54,48 @@ const Gallary = () => {
     // { src: "/camp33.webp", alt: "camp33" },
     // { src: "/camp34.webp", alt: "camp34" },
   ];
-  const img2 = [
-    { src: "/camp01.jpg", alt: "camp01" },
-    { src: "/camp02.jpg", alt: "camp02" },
-    { src: "/camp03.webp", alt: "camp03" },
-    { src: "/camp04.webp", alt: "camp04" },
-    { src: "/camp05.webp", alt: "camp05" },
-    { src: "/camp06.webp", alt: "camp06" },
-    // { src: "/camp07.webp", alt: "camp07" },
-    // { src: "/camp08.webp", alt: "camp08" },
-    // { src: "/camp09.webp", alt: "camp09" },
-    // { src: "/camp10.jpg", alt: "camp10" },
-    // { src: "/camp11.jpg", alt: "camp11" },
-    // { src: "/camp12.webp", alt: "camp12" },
-    // { src: "/camp13.jpg", alt: "camp13" },
-    // { src: "/camp14.webp", alt: "camp14" },
-    // { src: "/camp15.webp", alt: "camp15" },
-  ];
+
   return (
-    <div className='text-center ' style={{ backgroundColor: "rgb(27,37,46)", padding: "40px" }} id='memories'>
+    <div
+      className="text-center "
+      style={{ backgroundColor: "rgb(27,37,46)", padding: "40px" }}
+      id="memories"
+    >
       <div>
-        <p className="" style={{ fontSize: "3rem", color: 'white', padding: "40px" }}>YATRA MEMORIES</p>
+        <p
+          className=""
+          style={{ fontSize: "3rem", color: "white", padding: "40px" }}
+        >
+          YATRA MEMORIES
+        </p>
       </div>
-      <div className="" style={{
-         display: "flex", flexWrap: "wrap", justifyContent: "center",maxHeight:"600px",overflowY:"scroll" 
-      }}>
+      <div
+        className=""
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          maxHeight: "600px",
+          overflowY: "scroll",
+        }}
+      >
         {img.map((image, index) => (
           <div key={index} style={{ width: "300px", padding: "8px" }}>
-            <Image
-              src={image.src}
-              alt={image.alt}
-              width={300}
-              height={200}
-              style={{ objectFit: "cover", width: "100%", transition: "transform 0.3s ease-in-out" }}
-              loading="lazy"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            />
+             <img
+      src={image.src}
+      alt={image.alt}
+      width="300"
+      height="200"
+      className="object-cover w-full transition-transform duration-300 ease-in-out"
+      loading="lazy"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    />
           </div>
         ))}
       </div>
-      
     </div>
   );
-  
 };
 
 export default Gallary;

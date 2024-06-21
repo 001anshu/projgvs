@@ -33,6 +33,7 @@ export default function EmblaCarousel({images}) {
             key={ind}
             className="md:h-1/2"
             src={i.src} alt=".." />
+            {console.log()}
           </div>
         ))}
       </div>

@@ -30,15 +30,20 @@ export default function TestimonialCarousel({ images }) {
             className="embla__slide flex max-h-[450px] flex-col justify-center"
             key={i.src}
           >
-            <Image
+            <img
+             src={i.src}
+             alt={i.alt}
+             className="flex justify-center h-[300px] w-[320px]  items-center max-h-[300px] max-w-[320px]"
+             />
+            {/* <Image
               src={i.src}
               alt={i.alt}
               width={280}
               height={300}
 
               loading="lazy"
-              className="flex justify-center items-center max-h-[300px] max-w-[280px]"
-            />
+              
+            /> */}
 
             {/* <img className="flex justify-center items-center max-h-[300px] max-w-[280px]" src={i.src} alt=".." /> */}
           </div>

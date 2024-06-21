@@ -6,16 +6,14 @@ const Courses = () => {
     {
       img: [
         {
-          src: "/yatra01.jpg",
+          src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZjW28rxUtSX5Rxj-_KgNXiqUqe7uGsmpKxSRvQksNOXMdSbg16JKTvaoOn99H2wJE0atUy5gmGBM4r9zcv5VV6jVpxhbNkbg=w1160-h878-rw-v1",
+        },
+       
+        {
+          src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYeegnT0sxThGSN-iSV0cjTdxv-CiOXoJBm1fS0GJxYKHI7ARVtIcNkbzGjOUtlVNpsVkJzGEZHHx9SOym187TBvrL3cAxUNMo=w1160-h878-rw-v1",
         },
         {
-          src: "/yatra02.jpg",
-        },
-        {
-          src: "/yatra03.jpg",
-        },
-        {
-          src: "/yatra04.jpg",
+          src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbYVXWdLBl-HCTPP_tjfjwey6zFLUfGtbxTwKjlwmg_jJeNRrC-yhXQs7JpNZgdwCWUNg5eDfQxdo8mUWO5vpjDFfAUNFPgRQ=w1160-h878-rw-v1",
         },
       ],
       link:"/yatra",
@@ -24,16 +22,16 @@ const Courses = () => {
     },
     {
       img: [{
-          src: "/prasad.jpg",
+          src: "https://www.padayatra.com/wp-content/uploads/2019/01/maha-prasad-plate.jpg",
         },
         {
-          src: "/prasad02.jpg",
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZF5EoEVm1bVlDH0VsymV199FW8MbraqSpw&s",
         },
         {
-          src: "/prasad03.jpg",
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUitFujIoeHQMmGAxwGSyswaoYOlXdUDvcFXNdMLLg1O-2K2Kr66nVQoC_kbMQ8dkFTJQ",
         },
         {
-          src: "/prasad04.jpg",
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKsDGVADMdg4ppjmB1zbtlYUuHeiElwZDQW15oEQt4xBKLm4tVHM_N3hopYZoLaoqplT0&usqp=CAU",
         },
        
       ],
@@ -44,10 +42,10 @@ const Courses = () => {
     {
       img: [
         {
-          src:"/counseling03.webp",
+          src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ070nPwjcfxBsbeWeyf9Df4vRuQt2lD0hgeG--d0yOlfK4_fTQpL7rLQyKjlmZBRCH651mAyJbyMNOpQV9MhJwIqgjmTMdBf4=w1160-h878",
         },
         {
-          src:"/counseling02.jpg"
+          src:"https://iskconcongregation.com/wp-content/uploads/2019/04/CT16-114.png"
         }
       
         

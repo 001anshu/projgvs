@@ -9,7 +9,7 @@ const About = () => {
       className="md:flex p-4 mx-auto my-6 max-w-[1200px] justify-center items-center shadow-2xl shadow-indigo-500 rounded-xl"
     >
       <div className=" m-4 md:p-32 md:flex h-1/2 relative overflow-hidden md:w-1/2">
-        <img className="md:w-full  rounded-xl" src="/prabhupada.png" alt="prabhupada" />
+        <img className="md:w-full  rounded-xl" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb3DF3xdotefTS8_gkVq76UIPBvjaEZmDbCFYuxmacEg_HcSqLJBFBNROlsoqi5vwWQTuNOA6nj3dcVk28LLciEuSSVeCnWXg=w1160-h878-rw-v1" alt="prabhupada" />
       </div>
       <div className="mb-4 md:w-1/2">
         
