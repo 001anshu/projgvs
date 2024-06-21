@@ -34,3 +34,32 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+#useless photos
+# Ignore specific image files in the public directory
+/public/camp08.webp
+/public/camp09.webp
+/public/camp10.jpg
+/public/camp11.jpg
+/public/camp12.webp
+/public/camp13.jpg
+/public/camp14.webp
+/public/camp15.webp
+/public/camp16.webp
+/public/camp17.webp
+/public/camp18.webp
+/public/camp19.webp
+/public/camp20.webp
+/public/camp21.webp
+/public/camp22.jpg
+/public/camp23.jpg
+/public/camp24.webp
+/public/camp25.jpg
+/public/camp26.webp
+/public/camp27.webp
+/public/camp28.webp
+/public/camp29.webp
+/public/camp30.webp
+/public/camp31.webp
+/public/camp32.webp
+/public/camp33.webp
+/public/camp34.webp
