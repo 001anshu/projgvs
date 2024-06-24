@@ -7,14 +7,14 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div
-      className="md:flex p-4 mx-auto my-6 max-w-[1200px] justify-center items-center shadow-2xl shadow-indigo-500 rounded-xl"
+      className="md:flex  p-4 mx-auto my-6 max-w-[1200px] md:justify-between items-center shadow-2xl shadow-indigo-500 rounded-xl"
       id="home"
     >
       <div className="md:hidden flex h-auto relative overflow-hidden">
         <img
           className="m-4 max-h-[500px] rounded-lg md:max-w-[600px] "
           alt="img"
-          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbh4A-QtC1iFuw39NKo-2G-gbHEbhtiAK2dqTcX_zAOqQBYvoH8mcQVLnxg4LLFI5Cp6t6wfO5hVh7A1zIiXDasrGaPSsg6OWI=w1160-h878-rw-v1"
+          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb3DF3xdotefTS8_gkVq76UIPBvjaEZmDbCFYuxmacEg_HcSqLJBFBNROlsoqi5vwWQTuNOA6nj3dcVk28LLciEuSSVeCnWXg=w1160-h878-rw-v1"
         />
       </div>
       <div className="mb-4 md:w-1/2">
@@ -45,11 +45,11 @@ const Home = () => {
         </Link> */}
       </div>
 
-      <div className="md:flex h-auto relative overflow-hidden md:w-1/2">
+      <div className="md:flex hidden h-auto relative overflow-hidden md:w-1/2">
         <img
-          className="m-4 max-h-[500px] rounded-lg md:w-full"
+          className="m-4 max-h-[500px] rounded-lg md:w-fit"
           alt="img"
-          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbh4A-QtC1iFuw39NKo-2G-gbHEbhtiAK2dqTcX_zAOqQBYvoH8mcQVLnxg4LLFI5Cp6t6wfO5hVh7A1zIiXDasrGaPSsg6OWI=w1160-h878-rw-v1"
+          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb3DF3xdotefTS8_gkVq76UIPBvjaEZmDbCFYuxmacEg_HcSqLJBFBNROlsoqi5vwWQTuNOA6nj3dcVk28LLciEuSSVeCnWXg=w1160-h878-rw-v1"
         />
       </div>
     </div>
