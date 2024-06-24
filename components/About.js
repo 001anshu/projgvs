@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <div className="mb-4 md:w-1/2">
         
-        <h1 className="text-3xl m-4 text-orange-400  lg:m-6 ">
+        <h1 className="text-4xl m-6 lg:m-8 ">
           Experience An Amazing Indian Vedic Culture Journey
         </h1>
         <p className="font-bold m-4">
