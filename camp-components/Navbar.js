@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="  ">
+    <div className=" bg-white ">
       <div className="bg-gradient-to-l from-sky-400 flex items-center drop-shadow-2xl shadow-indigo-400  justify-between   ">
         <img
           src="/header_logo.jpeg"

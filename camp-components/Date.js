@@ -11,17 +11,17 @@ const Date = () => {
       className="flex flex-col md:flex-row items-center gap-2 justify-center m-4 "
     >
       
-      <div className=" bg-black text-white flex md:w-3/5 w-full rounded-lg">
+      <div className=" bg-black text-white flex md:w-1/2 w-full  rounded-lg">
         <Collapsable />
       </div>
       <div
-        className="flex text-center items-center justify-center m-2 rounded-xl lg:w-1/3"
+        className="flex text-center items-center justify-center  rounded-xl lg:w-1/4"
         style={{
           backgroundColor: "rgb(27,36,46)",
         }}
       >
         <div
-          className="p-4 md:m-10"
+          className="p-4 "
           style={{
             color: "white",
             border: "1px solid white ",

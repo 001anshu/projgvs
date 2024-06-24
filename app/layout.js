@@ -1,10 +1,18 @@
 // app/layout.js
-import { Inter } from "next/font/google";
+import { Inter, Montserrat, Roboto } from "next/font/google";
 import "./globals.css"; // Ensure your global styles are imported correctly
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], weight: ["400", "700"] });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+  display: 'swap',
+});
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "GVS",
@@ -14,10 +22,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-       
+      <body className={`${inter.className} font-inter`}>
         <main>{children}</main>
-        
       </body>
     </html>
   );

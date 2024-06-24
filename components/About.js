@@ -8,12 +8,12 @@ const About = () => {
       id="about"
       className="md:flex p-4 mx-auto my-6 max-w-[1200px] justify-center items-center shadow-2xl shadow-indigo-500 rounded-xl"
     >
-      <div className=" m-4 md:p-32 md:flex h-1/2 relative overflow-hidden md:w-1/2">
-        <img className="md:w-full  rounded-xl" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb3DF3xdotefTS8_gkVq76UIPBvjaEZmDbCFYuxmacEg_HcSqLJBFBNROlsoqi5vwWQTuNOA6nj3dcVk28LLciEuSSVeCnWXg=w1160-h878-rw-v1" alt="prabhupada" />
+      <div className=" m-4  md:flex h-1/2 relative overflow-hidden md:w-1/2">
+        <img className="md:w-full  rounded-xl" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbh4A-QtC1iFuw39NKo-2G-gbHEbhtiAK2dqTcX_zAOqQBYvoH8mcQVLnxg4LLFI5Cp6t6wfO5hVh7A1zIiXDasrGaPSsg6OWI=w1160-h878-rw-v1"alt="prabhupada" />
       </div>
       <div className="mb-4 md:w-1/2">
         
-        <h1 className="text-3xl m-4 text-orange-400 lg:m-6">
+        <h1 className="text-3xl m-4 text-orange-400  lg:m-6 ">
           Experience An Amazing Indian Vedic Culture Journey
         </h1>
         <p className="font-bold m-4">

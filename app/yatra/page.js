@@ -13,7 +13,7 @@ import Contact from "@/camp-components/Contact";
 
 const Camp = () => {
   return (
-    <div >
+    <div className="bg-[rgb(27,37,46)]" >
       <Navbar/>
       <Chitrakut />
       <About/>

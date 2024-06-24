@@ -19,7 +19,7 @@ const Experience = () => {
   },
   {
     title:"EXCITING DRAMA",
-    src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZfnDs0MWYoCVZaKwtEb6MSURBCeJAfC9UgSx5KqNQB5gXo8Z990xG8TcMPcRZlRNjC1Ugj2P52aA8LKKYM1ze5pIrg8Ws3XBg=w1160-h878",
+    src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbVbIyo9x1nDTd7f22evcBm4NJnhDXiwBWx6cDLc2BmIv3l-KJ5blgYjA3jzF0RJjT7-YHMQkUfVuO7fieTG7Djz6-zEcpFWI0=w828-h1792",
     alt:"img",
     disc:"By drama, you can preach. Just like Caitanya Mahāprabhu, He was a very great scholar, but He took part in the drama.-  Srila Prabhupada"
   },

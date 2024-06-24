@@ -14,7 +14,7 @@ export default function Collapsable() {
         className="p-2 "
       >
         {
-          <div className="bg-gray-700 p-2 max-h-[490px] overflow-y-scroll rounded-lg ">
+          <div className="bg-gray-700 p-2 max-h-[410px] overflow-y-scroll rounded-lg ">
             <p className="p-2 border-b">
               For new member database entry{" "}
               <Link href={"https://db.gaurangavedic.org.in/"} passHref>

@@ -5,13 +5,11 @@ const About = () => {
   return (
     <div
       id="about"
-      className="md:flex  p-4 mx-auto my-6  md:justify-center md:items-center shadow-2xl shadow-indigo-500 rounded-xl  "
-      style={{
-        flexDirection:"column"
-      }}
+      className="md:flex md:flex-col   p-4 mx-auto my-6  md:justify-center md:items-center  "
+      
     >
       <div
-        className="mb-4 flex flex-col justify-center items-center max-w-[1200px] rounded-xl "
+        className="mb-4 flex flex-col  justify-center items-center md:w-3/4 rounded-xl "
         style={{
           border: "solid rgb(20,163,244) 2px",
           backgroundColor: "rgb(212,228,248)",
@@ -24,7 +22,7 @@ const About = () => {
           "We are not human beings having a spiritual experience; we are
           spiritual beings having a human experience." — Srila Prabhupada
         </p>
-        <div className="md:text-xl text-md m-4 lg:m-6 text-center" style={{}}>
+        <div className="md:text-md text-sm m-4 lg:m-6 text-center" style={{}}>
           <p className="">
             Over the years, devotees have visited Vrindavan, Govardhan, Ayodhya,
             Jaipur, Sri Rangam, Tirupati, Mayapur, Dwarka, Udupi, Rameshwaram

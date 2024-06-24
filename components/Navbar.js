@@ -39,7 +39,7 @@ const Navbar = () => {
           className="w-10 m-2  lg:w-18 md:w-16"
         />
 
-        <div className="text-xl lg:text-2xl text-black font-semibold font-mono ">Guaranga Vedic Society</div>
+        <div className="text-xl lg:text-2xl text-black ">Guaranga Vedic Society</div>
         <div>
         <div className="hidden m-2 lg:flex  lg:justify-center ">
         <Link href={"/yatra"}><Navbarbtn name="Yatra"

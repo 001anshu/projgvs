@@ -57,7 +57,7 @@ const Gallary = () => {
 
   return (
     <div
-      className="text-center "
+      className="text-center max-w-3/5 "
       style={{ backgroundColor: "rgb(27,37,46)", padding: "40px" }}
       id="memories"
     >

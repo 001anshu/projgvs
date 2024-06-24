@@ -33,7 +33,7 @@ export default function TestimonialCarousel({ images }) {
             <img
              src={i.src}
              alt={i.alt}
-             className="flex justify-center h-[300px] w-[320px]  items-center max-h-[300px] max-w-[320px]"
+             className="flex justify-center h-[250px] w-[280px]  items-center max-h-[300px] max-w-[280px]"
              />
             {/* <Image
               src={i.src}

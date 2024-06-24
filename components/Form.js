@@ -38,7 +38,7 @@ const Form = () => {
 
   return (
 
-    <div id='contact' className='max-w-7xl mx-auto shadow-lg shadow-indigo-400 my-8 rounded-lg' >
+    <div id='contact' className='max-w-6xl mx-auto shadow-lg shadow-indigo-400 my-8 rounded-lg' >
       <div className="font-mono  text-slate-900 p-5 text-3xl  flex justify-center items-center">Contact Us</div>
       <div className=" flex items-center justify-center">
       
