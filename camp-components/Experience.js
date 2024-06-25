@@ -26,10 +26,10 @@ const Experience = () => {
 
 ]
   return (
-    <div>
+    <div className=" flex justify-center  ">
     <div
       id="experience"
-      className=" "
+      className="w-3/4 "
       style={{
         backgroundColor: "rgb(27,37,46)",
         color: "white",

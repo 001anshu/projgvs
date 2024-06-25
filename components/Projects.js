@@ -27,7 +27,7 @@ const Projects = () => {
     },
     {
       switch: 0,
-      header: "Gowsala",
+      header: "Goshala",
       discription:
         "Srila Prabhupada, the founder of ISKCON, emphasized the importance of goshala (cow protection) as essential for both spiritual and material well-being. He regarded cows as sacred and integral to Vedic culture, teaching that protecting cows is a key aspect of practicing dharma and non-violence (ahimsa). Prabhupada highlighted that cows contribute significantly to sustainable agriculture through their byproducts, which serve as natural fertilizers and pesticides, and support rural economies. He believed that caring for cows cultivates compassion, ethical behavior, and spiritual advancement, fostering a harmonious and humane society aligned with Vedic principles.",
       img: {
