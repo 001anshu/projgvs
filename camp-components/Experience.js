@@ -37,10 +37,11 @@ const Experience = () => {
     >
       
       <h1
-        className="md:text-7xl text-5xl p-8 text-center font-semibold"
+        className=" text-center "
+        style={{ fontSize: "3rem", color: "white", padding: "40px" }}
         
       >
-        Experience The Unlimited
+        EXPERIENCE THE UNLIMITED
       </h1>
       <div className="md:flex justify-center w-full">
       {exp.map((e, i) => (

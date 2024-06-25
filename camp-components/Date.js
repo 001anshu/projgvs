@@ -6,22 +6,24 @@ import Collapsable from "./Collapsable";
 
 const Date = () => {
   return (
+
     <div
       id="date"
-      className="flex flex-col md:flex-row items-center gap-2 justify-center m-4 "
+      className="w-full flex justify-center"
     >
+      <div className="flex flex-col md:flex-row items-center gap-5 md:w-3/4 w-full   justify-center m-4 ">
       
-      <div className=" bg-black text-white flex md:w-1/2 w-full  rounded-lg">
+      <div className=" bg-black text-white flex md:w-3/4 w-full  rounded-lg">
         <Collapsable />
       </div>
       <div
-        className="flex text-center items-center justify-center  rounded-xl lg:w-1/4"
-        style={{
-          backgroundColor: "rgb(27,36,46)",
-        }}
+        className="flex text-center items-center justify-center  rounded-xl md:w-1/3"
+        // style={{
+        //   backgroundColor: "rgb(27,36,46)",
+        // }}
       >
         <div
-          className="p-4 "
+          className="p-4 w-full max-h-[600px] overflow-y-auto  scrollbar-hide scroll-smooth "
           style={{
             color: "white",
             border: "1px solid white ",
@@ -79,6 +81,7 @@ const Date = () => {
       </div>
 
     
+    </div>
     </div>
   );
 };

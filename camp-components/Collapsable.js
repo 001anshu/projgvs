@@ -14,9 +14,10 @@ export default function Collapsable() {
         className="p-2 "
       >
         {
-          <div className="bg-gray-700 p-2 max-h-[410px] overflow-y-scroll rounded-lg ">
+          <div className="bg-gray-700 items-center flex flex-col p-6">
+          <div className="bg-gray-700 p-4 max-h-[370px] overflow-y-auto scrollbar-hide scroll-smooth  rounded-lg border border-white  ">
             <p className="p-2 border-b">
-              For new member database entry{" "}
+              For new member database entry{"  "}
               <Link href={"https://db.gaurangavedic.org.in/"} passHref>
                 {" "}
                 <span className="text-blue-500 underline text-xl">click here</span>
@@ -38,7 +39,7 @@ export default function Collapsable() {
               </ul>
             </div>
 
-            <div className="overflow-x-scroll">
+            <div className="overflow-x-auto flex scrollbar-hide ">
               <table className="border border-solid p-1">
                 <thead className="border border-solid p-1">
                   <tr className="border border-solid p-1">
@@ -146,6 +147,7 @@ export default function Collapsable() {
                 </tbody>
               </table>
             </div>
+          </div>
           </div>
         }
       </AccordionItem>

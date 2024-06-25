@@ -70,7 +70,7 @@ const Gallary = () => {
         </p>
       </div>
       <div
-        className=""
+        className=" scrollbar-hide scroll-smooth"
         style={{
           display: "flex",
           flexWrap: "wrap",

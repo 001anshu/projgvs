@@ -11,10 +11,8 @@ const Contact = () => {
       }}
     >
       <h1
-        className="text-center font-semibold"
-        style={{
-          fontSize: "3rem",
-        }}
+        className="text-center "
+        style={{ fontSize: "3rem", color: "white", padding: "40px" }}
       >
         CONTACT US
       </h1>
