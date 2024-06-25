@@ -80,8 +80,8 @@ const Gallary = () => {
       >
         <div>
           <p
-            className=""
-            style={{ fontSize: "3rem", color: "white", padding: "40px" }}
+            className="py-10"
+            style={{ fontSize: "3rem", color: "white", padding: "" }}
           >
             YATRA MEMORIES
           </p>

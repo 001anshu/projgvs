@@ -4,11 +4,11 @@ import React from 'react'
 const Chitrakut = () => {
   return (
     <div>
-      <div className='p-4 rounded-lg items-center flex justify-center'>
+      <div className='rounded-lg items-center flex justify-center'>
         <img
          src= 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaLEsbrNNgbEkC30Fuwtn663suWWpntmNqx3rilA5hfmnYOkh33DsrVYSqevcTsDy7l5pKvoswnc89PJNI2Qi1lOcyWJU-AqwE=w1160-h878-rw-v1'
         
-         className='md:w-3/4 rounded-lg '
+         className='w-full rounded-lg '
          />
         {/* <Image
         className='  w-full'

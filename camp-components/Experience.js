@@ -37,8 +37,8 @@ const Experience = () => {
     >
       
       <h1
-        className=" text-center "
-        style={{ fontSize: "3rem", color: "white", padding: "40px" }}
+        className=" text-center items-center py-10 "
+        style={{ fontSize: "3rem", color: "white",  }}
         
       >
         EXPERIENCE THE UNLIMITED
