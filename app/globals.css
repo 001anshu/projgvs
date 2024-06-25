@@ -25,15 +25,6 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-.overflowContainer::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for other browsers */
-.overflowContainer {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;     /* Firefox */
-}
 
 
 
