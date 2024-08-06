@@ -38,19 +38,19 @@ const Date = () => {
             {" "}
             Database Entry
           </h1>
-          <h1 className="md:text-lg text-lg mb-4 ">➢ 21th June</h1>
+          <h1 className="md:text-lg text-lg mb-4 ">➢ 25th July</h1>
           
           <h1 className="md:text-xl font-semibold text-xl  m-2">
             {" "}
             Registration Dates
           </h1>
-          <h1 className=" text-lg mb-4  ">➢ 15th July - 28th July  </h1>
+          <h1 className=" text-lg mb-4  ">➢ 4th August (Tentative)</h1>
           
           <h1 className=" font-semibold text-xl  m-2">
             {" "}
             Accommodation Booking
           </h1>
-          <h1 className=" text-lg mb-4 ">➢ 8th August - 18th August</h1>
+          <h1 className=" text-lg mb-4 ">➢  Will be announced soon</h1>
           <h1 className="md:text-xl font-semibold text-xl  m-2">
             {" "}
             Arrival of Devotees

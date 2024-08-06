@@ -12,9 +12,9 @@ const Home = () => {
     >
       <div className="md:hidden flex h-auto relative overflow-hidden">
         <img
-          className="m-4 max-h-[500px] rounded-lg md:max-w-[600px] "
+          className=" m-4  md:flex h-1/2 relative overflow-hidden md:w-1/2 rounded-lg"
           alt="img"
-          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb3DF3xdotefTS8_gkVq76UIPBvjaEZmDbCFYuxmacEg_HcSqLJBFBNROlsoqi5vwWQTuNOA6nj3dcVk28LLciEuSSVeCnWXg=w1160-h878-rw-v1"
+          src="https://yt3.ggpht.com/G-cytOeQglvEP7EdU2iKHh4Cx6ljGgeGRGsMt1nBtgCch0HKAub6-bkUegKOYc0PI1OS-CPKZ2aBlYs=s1080-c-fcrop64=1,00001b85ffffe472-rw-nd-v1"
         />
       </div>
       <div className="mb-4 md:w-1/2">
@@ -49,7 +49,7 @@ const Home = () => {
         <img
           className="m-4 max-h-[500px] rounded-lg md:w-fit"
           alt="img"
-          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb3DF3xdotefTS8_gkVq76UIPBvjaEZmDbCFYuxmacEg_HcSqLJBFBNROlsoqi5vwWQTuNOA6nj3dcVk28LLciEuSSVeCnWXg=w1160-h878-rw-v1"
+          src="https://yt3.ggpht.com/G-cytOeQglvEP7EdU2iKHh4Cx6ljGgeGRGsMt1nBtgCch0HKAub6-bkUegKOYc0PI1OS-CPKZ2aBlYs=s1080-c-fcrop64=1,00001b85ffffe472-rw-nd-v1"
         />
       </div>
     </div>

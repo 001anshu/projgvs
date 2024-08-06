@@ -6,7 +6,7 @@ const Chitrakut = () => {
     <div>
       <div className='rounded-lg items-center flex justify-center'>
         <img
-         src= 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaLEsbrNNgbEkC30Fuwtn663suWWpntmNqx3rilA5hfmnYOkh33DsrVYSqevcTsDy7l5pKvoswnc89PJNI2Qi1lOcyWJU-AqwE=w1160-h878-rw-v1'
+         src= 'https://yt3.ggpht.com/vCCdYmvQH5WDDebiJ0RQr_yms-kjO9nz2XIz8676REPeCmWNYdidGyr5EQUMs-vGYkITpHJUQBeP2g=s1600-rw-nd-v1'
         
          className='w-full rounded-lg '
          />

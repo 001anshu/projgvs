@@ -9,9 +9,7 @@ const Display = () => {
     { text: "Chitrakut Camp Registration -> click here",
       link:"/yatra"
      },
-    { text: "Rath Yatra At Chaouparan🥳",
-      link:'/'
-     },
+   
     
   
   ];
@@ -19,19 +17,19 @@ const Display = () => {
   const images = [
     {
       name: "Br02",
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ5ffUmDNcuJT4Eb5xMsdtTMy73eG_fU6s6fI32oZMI7BCXNR8sBh5NL6r7xeZx4G29a-n-m-7nIwPknghLdQIgtWBs3_zTYw=w1160-h878",
+      src: "https://yt3.ggpht.com/4tvRSiA0CoxOh_4zwZFqXeXb_H_IiLLiUXeTiZgJSGZjVY6qRkuYFZzI6fYGpSFUC2sFrFrgvtnkTQ=s800-c-fcrop64=1,01c70000fe44ffff-rw-nd-v1",
     },
     {
       name: "Br4",
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb0PRWwmOU4ucIpjlxnKy6ME1rBgyyyEyadEHqVRLK5b42cGwaBPUeuVpbbDTd487bvhHuZwdzBbbGCLgkl8ckz4hqky-7-9nw=w1160-h878-rw-v1",
+      src: "https://yt3.ggpht.com/IE3Y5RQYhH8ax1-wuNFf3Qn_SLa2YorUoKU6k8hVgIHIDbFxxeXzgsg-QKVbFqTCC5BCMvKXbvm6=s618-c-fcrop64=1,2e320000d1cdffff-rw-nd-v1",
     },
     {
       name: "Br10",
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbXhei1B5fujPs65dzk2NJbWJzfAeynPLbDgEHPwRYh80PUtbx9pDvtLAJ2B_f582FlJVRwjeRO5UYEbMKlu2bTZHrYs-sv8_g=w1160-h878-rw-v1",
+      src: "https://yt3.ggpht.com/IME8mUu_zau1af-8elXHm-wVd8vPMPtLdDlxcDgSx77IyMBhfqozXsfhF1PlTlj7judkraikmZ9GEw=s723-c-fcrop64=1,347c0000c516ffff-rw-nd-v1",
     },
     {
       name: "Br11",
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbeSzd2Fm6aI5_Qfdke2IY9ZNmFFRKJQV4n-qqki1UawncrJpyK29S26Lgs6gHQlDwStUVbcswkfs0gEmOY37UvRkZvzmBwxg=w1160-h878-rw-v1",
+      src: "https://yt3.ggpht.com/vFxAoaR8IQcUkYg3AoC3iMhp5Dgj_G-YHnEsjHBLGc0-HHO42NLxHG6I81BuP3Up0W_s8g46PwoY0A=s800-c-fcrop64=1,124e0000edb1ffff-rw-nd-v1",
     },
   ];
   return (

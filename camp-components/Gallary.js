@@ -14,31 +14,31 @@ const Gallary = () => {
   };
   const img = [
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbV53e3DoaDzj6WYa4Z3PXLk95ZX0maWTKjSdnPsvrkZnObnADaKRgHKC4heqfhlpBSgwM9pKTdifG3VeHIUOypP_ZO2E8vmdw=w1160-h878-rw-v1",
+      src: "https://yt3.ggpht.com/odG5pisRR4xw61ZEie0NlVPEp8xbO6Jhz9eZAlNuziQwm2fx_kag1GxSjU4HVBqrC8i47ye3QKtRfA=s800-c-fcrop64=1,20000000dfffffff-rw-nd-v1",
       alt: "camp01",
     },
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbh4A-QtC1iFuw39NKo-2G-gbHEbhtiAK2dqTcX_zAOqQBYvoH8mcQVLnxg4LLFI5Cp6t6wfO5hVh7A1zIiXDasrGaPSsg6OWI=w1160-h878-rw-v1",
+      src: "https://yt3.ggpht.com/U3gmjdr_uo4zUbNprdqESyve5YOo3Pm1mA51LAqQfLBEzcHXkcKExJs6E5YPk0jLoQY7KWRzviYtfg=s1080-c-fcrop64=1,20000000dfffffff-rw-nd-v1",
       alt: "camp02",
     },
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbXz97UgHPO1MGQ4p-hdKaQfRKFNXijVGczl1538FAviWGfcoJCOsfyiEtLof9pfnU6ryLgIvuWjmsrSAC0bNRXugG_9n8hZog=w1160-h878",
+      src: "https://yt3.ggpht.com/416sHiKzI-yC5OA3U4ydk_AxRTckKRD3NE1kmualaUiZj7yQK4LtDTiOqwgnJraKgjmx6x_zHcVWIA=s960-c-fcrop64=1,20000000dfffffff-rw-nd-v1",
       alt: "camp03",
     },
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ716Lm47psFdJgx0rYj3HNf5V05fP8W_qrFVZpsRj5yCKmuXCYk2Pe26y9je8j9xF1uligeieJbgTOgapkV0bEIbNd8tSNSw=w1160-h878",
+      src: "https://yt3.ggpht.com/0353CFlz2gOCCHMFn6S-Oo7ln19PpOnKPVtGy-tn4XWoCqSlWhUxBjFq9G05tOwNWbwvUrax-qJa=s800-c-fcrop64=1,20000000dfffffff-rw-nd-v1",
       alt: "camp04",
     },
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZYYdRsCsjeNayeltZyAOnY1u4H6fAo61UY6BwZFQbuFmqergz8TrqBqdF_26vs9fNp5CKH3Y9of4w9gZ82ZEj98zAOfdycrQ=w1160-h878",
+      src: "https://yt3.ggpht.com/dS_Cc8K9y79NKTwRVMbVJNTfB8C8i5vj4qLwUW6DpNhPcV3K2bx5ji83urv6dUBrbaOs-qtXNyonNA=s1280-rw-nd-v1",
       alt: "camp05",
     },
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY3yCuxTFxEqiKW-kkszfnOCyicOJA-T9gx87EtE4q2qhxbVrcGNUAZwU4HI7nnzP1KcEHJKTIz1x9mnK_i9ESzn33sg7-vldU=w1160-h878",
+      src: "https://yt3.ggpht.com/wLa-Kq3lnSaj4vuHFtDK-d8ov3CCxNNK4zmiCJvJA6bvsgGoNyCGx79_p3FUFlDjxAtCiTqzhr_0=s1080-c-fcrop64=1,00000ac4fffff544-rw-nd-v1",
       alt: "camp06",
     },
     {
-      src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcVtPxChiSpjskRpFNa4jTZ9UBKz5cV-5iCt9b77rRFRqnWxZ2fK2kO6d7ubvMxwcfdVQlGb5zgx9moR_deLWg5VHJP--vY2g=w1160-h878",
+      src: "https://yt3.ggpht.com/2LPIkPYQD5P0t__F-6RDQ9Mbc_3VZDgDr_NwDYHzaEzuFqek2QrBjP1dJnGELQ6kupWqpVl6mwVsI5s=s800-c-fcrop64=1,00000000b96effff-rw-nd-v1",
       alt: "camp07",
     },
     // { src: "/camp08.webp", alt: "camp08" },

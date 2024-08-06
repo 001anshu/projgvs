@@ -18,7 +18,7 @@ export default function Collapsable() {
           <div className="bg-gray-700 p-4 max-h-[370px] overflow-y-auto scrollbar-hide scroll-smooth  rounded-lg border border-white  ">
             <p className="p-2 border-b">
               For new member database entry{"  "}
-              <Link href={"https://db.gaurangavedic.org.in/"} passHref>
+              <Link href={"https://db.gaurangavedic.org.in/login"} passHref>
                 {" "}
                 <span className="text-blue-500 underline text-xl">click here</span>
               </Link>
@@ -154,23 +154,16 @@ export default function Collapsable() {
       <AccordionItem
         key="2"
         aria-label="Accordion 2"
-        title={<div className="text-center text-2xl p-2 ">Registration</div>}
+        title={<div className="text-center text-2xl p-2 ">Registration and Accomodation</div>}
         className="p-2 "
       >
-        <div className="bg-gray-600 text-xl p-2 rounded-lg">
-        Registration hasn't started yet.
+        <div className="bg-gray-600 text-xl p-2 rounded-lg items-center flex text-center justify-center">
+        <Link href={"https://yatra.gaurangavedic.org.in/dashboard"} passHref>
+        <span className=" text-blue-500 underline text-xl cursor-pointer  ">Click here</span>
+        </Link>
         </div>
       </AccordionItem>
-      <AccordionItem
-        key="3"
-        aria-label="Accordion 3"
-        title={<div className="text-center  text-2xl p-2 ">Accommodation</div>}
-        className="p-2"
-      >
-        <div className="bg-gray-600 text-xl p-2 rounded-lg">
-        Accommodation hasn't started yet.
-        </div>
-      </AccordionItem>
+     
     </Accordion>
   );
 }

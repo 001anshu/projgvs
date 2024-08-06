@@ -12,10 +12,7 @@ const Information=({info})=>{
         # Chitrakut Camp Registration <Link href={"/yatra"}> <span className="text-blue-500 underline"> click here</span>  </Link>
         
         </ul>
-        <ul className="  text-xl font-semibold text-black m-2 p-2">
-        # Rath Yatra in Chouparan
-        
-        </ul>
+       
         
       </div>
 

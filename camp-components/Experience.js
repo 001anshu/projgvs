@@ -7,19 +7,19 @@ import Gallary from "./Gallary";
 const Experience = () => {
   const exp=[{
     title:"KRISHNA KATHA",
-    src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihabZx7yy8cQmoX1EUrGogFVQrWiccD6IBv_jqchUUEy9p6JBxYmJrAJJZ_xLQ5iTVI6S4iQbgn5tAg5T5dzkcp7lEP4upzDYv4=w1160-h878",
+    src:"https://yt3.ggpht.com/JgsBmk2Ah4wssM6kAKbGrvjPcJZslJB62fYQ6PicrW3vgVjBKgDtpwi6oaEXn9I6_yysLA00rNCZkw=s1080-rw-nd-v1",
     alt:"img",
     disc:"Do not miss the Krishna Katha by HG Kumar Lila Pr. Relish the nectar 2 times a day which includes the pastimes of the dham and pastimes from scriptures."
   },
   {
     title:"ECSTATIC KIRTAN",
-    src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZS12ki6Y9sEllMUO_WoUtqoS4M4q8tMNJANgQSzXtBmxmhpgniz37ye-mY6EdU-BLI1HYb1LOSxLi-L6eNF_s8qCPdOGwPQA=w1160-h878",
+    src:"https://yt3.ggpht.com/d7L8PCc4rR8z4WXEknZFVkVBhLWzmp8jKWHv1D9iX8la1GJARwn7wLMqD1Y_xHk_Sn2ovaz0PBTb=s1080-c-fcrop64=1,00002000ffffdfff-rw-nd-v1",
     alt:"img",
     disc:"Hear the ecstatic kirtan by Devotees in the Nama Sankirtan."
   },
   {
     title:"EXCITING DRAMA",
-    src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbVbIyo9x1nDTd7f22evcBm4NJnhDXiwBWx6cDLc2BmIv3l-KJ5blgYjA3jzF0RJjT7-YHMQkUfVuO7fieTG7Djz6-zEcpFWI0=w828-h1792",
+    src:"https://yt3.ggpht.com/ldffFDNRardJTUPStkCH_O_PNJiF1BklncZbDwNhWvW858q2f6m3DRCzqmdblGP1vfCszt50modlVI4=s1098-rw-nd-v1",
     alt:"img",
     disc:"By drama, you can preach. Just like Caitanya Mahāprabhu, He was a very great scholar, but He took part in the drama.-  Srila Prabhupada"
   },

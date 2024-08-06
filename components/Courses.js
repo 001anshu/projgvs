@@ -6,14 +6,14 @@ const Courses = () => {
     {
       img: [
         {
-          src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZjW28rxUtSX5Rxj-_KgNXiqUqe7uGsmpKxSRvQksNOXMdSbg16JKTvaoOn99H2wJE0atUy5gmGBM4r9zcv5VV6jVpxhbNkbg=w1160-h878-rw-v1",
+          src: "https://yt3.ggpht.com/cO51hNLgslk6H0DgFLE7rrZ3XuAasHq8yDLHkLU0uheQIRUr7acZoZjWbZcQO9inps37lk85DYSw8n8=s1516-nd-v1",
         },
        
         {
-          src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYeegnT0sxThGSN-iSV0cjTdxv-CiOXoJBm1fS0GJxYKHI7ARVtIcNkbzGjOUtlVNpsVkJzGEZHHx9SOym187TBvrL3cAxUNMo=w1160-h878-rw-v1",
+          src: "https://yt3.ggpht.com/1FJ9NWNconyNOE2YGefU4J15T3hjmhkFrIIS0jSo0U3atY9q83cIVRtQdnrcVbWuy1Y7nF2Ev2c3lA=s800-c-fcrop64=1,00000000ffffffff-rw-nd-v1",
         },
         {
-          src: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbYVXWdLBl-HCTPP_tjfjwey6zFLUfGtbxTwKjlwmg_jJeNRrC-yhXQs7JpNZgdwCWUNg5eDfQxdo8mUWO5vpjDFfAUNFPgRQ=w1160-h878-rw-v1",
+          src: "https://yt3.ggpht.com/416sHiKzI-yC5OA3U4ydk_AxRTckKRD3NE1kmualaUiZj7yQK4LtDTiOqwgnJraKgjmx6x_zHcVWIA=s960-c-fcrop64=1,20000000dfffffff-rw-nd-v1",
         },
       ],
       link:"/yatra",
@@ -42,7 +42,7 @@ const Courses = () => {
     {
       img: [
         {
-          src:"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZ070nPwjcfxBsbeWeyf9Df4vRuQt2lD0hgeG--d0yOlfK4_fTQpL7rLQyKjlmZBRCH651mAyJbyMNOpQV9MhJwIqgjmTMdBf4=w1160-h878",
+          src:"https://yt3.ggpht.com/IGXeLLE_LQHRT6aAWwUQ4SHIXGCLbV04VUFW-cq6YJUmVDTIonR1lVlgucPH4WzD8gLnJBeHym7gLQ=s1080-c-fcrop64=1,00000000ffffffff-rw-nd-v1",
         },
         {
           src:"https://iskconcongregation.com/wp-content/uploads/2019/04/CT16-114.png"
